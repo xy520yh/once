@@ -33,31 +33,31 @@ $(function(){
 
 
 
-		// $(window).scroll(function(){
-		// 	var offh=$(".part4").offset().top;
-		// 	console.log(offh)
-		// 	if ($(window).scrollTop() < (offh-100)) {
-		// 		$('.link01').addClass('active');
-		// 		$('.link02').removeClass('active');
-		// 	} else {
-		// 		$('.link02').addClass('active');
-		// 		$('.link01').removeClass('active');
-		// 	}
-		// })
-		// if (window.location.href.indexOf('link02') !== -1) {//不等于-1的时候就是有
-		// 	isBusiness();
-		// } else {
-		// 	$('.link01').addClass('active');
-		// }
-		// $('.link02').click(function(){
-		// 		isBusiness();
-		// });
+		$(window).scroll(function(){
+			var offh=$(".part4").offset().top;
+			console.log(offh)
+			if ($(window).scrollTop() < (offh-600)) {
+				$('.link01').addClass('active');
+				$('.link02').removeClass('active');
+			} else {
+				$('.link02').addClass('active');
+				$('.link01').removeClass('active');
+			}
+		})
+		if (window.location.href.indexOf('yewu1') !== -1) {//不等于-1的时候就是有
+		
+			isBusiness();
+		} else {
+			return false;
+			//('.link01').addClass('active');
+		}
+
 	
-		// function isBusiness() {
-		// 	//jQuery('html,body').animate({scrollTop:$('#yewu1').offset().top});
-		// 	$('.link02').addClass('active');
-		// 	$('.link01').removeClass('active');
-		// }
+		function isBusiness() {
+			//jQuery('html,body').animate({scrollTop:$('#yewu1').offset().top});
+			$('.link02').addClass('active');
+			$('.link01').removeClass('active');
+		}
 
 
 
