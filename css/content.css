@@ -177,10 +177,10 @@ p.mar_no{margin-bottom:40px;}
 .year_date1{position:absolute;left:30px;top:45px;color:#5a5a5a;font-weight:bold;font-size:20px;}
 .year_date2{position:absolute;left:30px;top:245px;color:#5a5a5a;font-weight:bold;font-size:20px;}
 
-.service_part4{width:750px;height:490px;background:url(../images/service_part3_bg.jpg);}
+.service_part4{width:750px;height:490px;background:url(../images/service_part3_bg.jpg); color:#fff;}
 .servie_part4_main{width:638px;margin:0 auto;padding-top:110px;height:380px;}
 .servie_part4_main h3{font-size:36px;color:#fff;font-weight:bold;margin-bottom:30px;}
-.servie_part4_main p{font-size:24px;color:#fff;margin-bottom:10px;}
+.servie_part4_main p{font-size:24px;color:#fff;margin-bottom:10px;color:#fff;}
 .service_part3_main_left,.service_part2_main_right{width:638px;margin:0 auto; }
 .service_part3_main_left{margin-bottom:70px;}
 .service_part3_main{width:750px;margin:0 auto;padding-top:90px;display:flex;flex-direction: column;}
