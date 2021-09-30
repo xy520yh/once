@@ -32,7 +32,6 @@ $(function(){
 
 
 
-
 	
 		if (window.location.href.indexOf('yewu1') !== -1) {//不等于-1的时候就是有
 		
