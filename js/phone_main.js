@@ -50,6 +50,7 @@ $(function(){
 		} else {
 			return false;
 			//('.link01').addClass('active');
+			// v1111
 		}
 
 	
