@@ -39,19 +39,21 @@
 .footer_wrap  a{color:#fff;margin:0;padding:0;}
 .footer_wrap  a:hover{border-bottom:1px solid #fff;padding-bottom:3px;}
 .footer_bottom{background: #03a8b8;width:750px;margin:0 auto;padding-bottom:74px;border-bottom: 0.1rem solid #333;}
-.footer_show_box{width:618px;margin:0 auto; }
+.footer_show_box{width:618px;margin:0 auto;padding-bottom: 10px;}
 .footer_center_left{font-size:30px;}
-.footer_center_center h3{color:#19e0ed;width:187px;border:1px solid #1ce7f5;border-radius:30px;font-size:16px;text-align:center;line-height:32px;float: left;height:32px;}
-.footer_center_center{ display: flex; justify-content:space-between;width:260px;}
-.footer_center_center h4{background:url(../images/footer_row_03.png) no-repeat 20px 10px;width:31px;height:16px;  padding:10px 20px; cursor: pointer;}
-h4.active{background:url(../images/footer_row_04.png) no-repeat 20px 10px;width:31px;height:16px;  padding:10px 20px; }
+.footer_center_center h3{color:#19e0ed;width:300px;border:1px solid #1ce7f5;border-radius:10px;font-size:22px;text-align:center;line-height:39px;float: left;height:39px;}
+.footer_center_center{ display: flex; justify-content:space-between;width:300px;}
+.footer_center_center h4{background:url(../images/footer_row_03.png) no-repeat 40px  14px;width:31px;height:16px;  padding:12px 30px; cursor: pointer;}
+h4.active{background:url(../images/footer_row_04.png) no-repeat 40px  14px;width:31px;height:16px;  padding:12px 30px; cursor: pointer;}
 .footer_bottom_01{width:750px;height:70px;border-bottom: 1px solid #4ec3cd;}
 .footer_show_box1{width:618px;margin:0 auto; display: flex; justify-content: space-between; align-items: center; height: 70px;}
 
 .footer_bottom_02{margin-top: 40px;}
-.footer_hide_box{height:200px;font-size: 24px;color:#fff;padding-top: 25px;padding-bottom: 25px; }
-.footer_hide_box p{margin-bottom: 15px;}
+.footer_hide_box{height:260px;font-size: 24px;color:#fff;padding-top: 25px;padding-bottom: 25px; }
+.footer_hide_box p{margin-bottom: 15px; color:rgba(255,255,255,0.8)}
 .footer_border{height:1px;background:#4ec3cd;}
 .footer_hide_box.active{display: none;}
 
 .info p{color:rgba(255,255,255,0.5);font-size:16px; line-height: 34px;}
+
+p.address{margin-top: 25px;margin-bottom: 20px;}

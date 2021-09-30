@@ -2,9 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>ffgffgfgfgfg！</title>
-    <meta name="keywords" content="夢想新大陸,手機遊戲,手遊,遊戲,事前登錄,事前預約,預約,MMO,RPG,回合,3D,角色扮演,UE4">
-    <meta name="description" content="《夢想新大陸》5G全視角MMO手遊大作！實現你的童年夢想，和恐龍一起飛天冒險吧！搶先申請CB限量封測資格，再抽Lamtoy變色龍聯名潮流盒玩！">
+    <title>首页</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <meta content="black" name="apple-mobile-web-app-status-bar-style" />
     <meta content="telephone=no" name="format-detection" />
@@ -453,8 +453,9 @@
                     </div>
                     <div class="footer_border"></div>
                     <div class="footer_show_box">
-                        <P style="margin-top: 40px;"> 地  址：北京市 东城区 西总布胡同46号 明阳国际中心B座 <br/> 电  话：010-65210329               传  真：010-65210399 </P>    
+                        <P class="address">地  址：北京市 东城区 西总布胡同46号 明阳国际中心B座</P><P class="tel">电  话：010-65210329 传  真：010-65210399</P>     
                     </div>  
+                    <div class="footer_border"></div>
                   
                 </div>
                 <div class="footer_bottom_02">
@@ -472,6 +473,7 @@
 <script>
 /*logo轮播*/
 var swiper = new Swiper('.logo_swiper', {
+   loop:true,
     pagination: {
         el: '.logo_swiper .swiper-pagination',
     },
@@ -488,10 +490,6 @@ var mySwiper = new Swiper ('.banner_swiper', {
             crossFade: true,
         },
         //speed: 600,
-        // autoplay: {
-        //     delay: 10000,
-        //     disableOnInteraction: false,
-        // },
         loop: true,
         pagination: {
             el: '.swiper-pagination',
@@ -512,46 +510,7 @@ var mySwiper = new Swiper ('.banner_swiper', {
         } 
         }
     }) 
-/*大事计*/
-    // var systemThumbs = new Swiper('.world-thumbs', {
-    //   initialSlide: 0,
-    //   slidesPerView: 4,
-    //   loop: true,
-    //  // autoplay:true,
-    //   on: {
-    //         resize: function(){
-    //             this.update();
-    //         }, 
-    //         init: function(){
-    //           var index = this.realIndex;
-             
-    //         },
-    //         click:function(){
-    //             var index = this.clickedIndex;
-    //             console.log(index);
-    //             systemThumbs.slideTo(index);
-    //         },
-    //         slideChangeTransitionStart: function(){
-    //             var index = this.realIndex;
-           
-    //         },
-    //         slideChange: function () {
-    //             var index = this.realIndex;
-    //             galleryTop.slideTo(index)
-    //         },
-    //     },
-  
-    // });
-    // var galleryTop = new Swiper('.world_top', {
-    //   initialSlide: 0,
-    //   spaceBetween: 0,
-    //   autoHeight: true, //高度随内容变化
-    //   loop: true,
-    //   thumbs: {
-    //     swiper: systemThumbs,
-    //  },
-    // });
-    function getQueryString(name) {
+function getQueryString(name) {
   var reg = new RegExp("(^|/?|&)" + name + "=([^&]*)(&|$)", "i");
   var r = decodeURIComponent(location.href).substr(1).match(reg);
   if (r != null) return r[2];
@@ -594,26 +553,12 @@ var mySwiper = new Swiper ('.banner_swiper', {
           systemThumbs.slideTo(index);
         },
       },
-
-
     });
-    //点击按钮切换
-   
-
     //点击按钮切换
     $('body').on('click', '.world-thumbs .swiper-slide', function () {
       var index = $(this).attr('data-swiper-slide-index');
       systemThumbs.slideTo(index)
     })
-
-
-
-
-
-
-
-
-
 /*公司banner*/
     var swiper = new Swiper('.part4_swiper', {
       autoplay: {
@@ -621,6 +566,7 @@ var mySwiper = new Swiper ('.banner_swiper', {
         stopOnLastSlide: false,
         disableOnInteraction: true,
      },
+     loop:true,
      // mousewheel: true,
       noSwiping : true,
       effect: 'fade', 

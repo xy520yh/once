@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>投资者111关系</title>
+<title>投资者关系</title>
 <meta name="keywords" content="">
 <meta name="description" content=" ">
 <!--主要样式-->
@@ -16,7 +16,6 @@
 <script type="text/javascript" src="http://static.kunlun.com/web/company/js/subutil.js"></script>
 <script type="text/javascript" src="http://hq.sinajs.cn/list=sz300418" charset="gb2312"></script>
 <script type="text/javascript" src="js/phone_main.js"></script> 
-<script type="text/javascript" src="js/inverstor_fixed.js"></script>
 <script>
     var phoneWidth =  parseInt(window.screen.width);
     var phoneScale = phoneWidth/750;
@@ -31,6 +30,9 @@
     } else {
         document.write('<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">');
     }
+
+
+
 
 </script>
 </head>
@@ -81,7 +83,7 @@
     </div>
 </div>
 <!--主体-->
- <div class="anchor_layer" id="navHeight">
+ <!-- <div class="anchor_layer" id="navHeight">
     <div class="nav_wrap" id="nav_wrap" >
         <div class="wrap_layer"  >
             <div class="wrap_tab"><a class="tab active" href="#div0">公司公告</a></div>
@@ -90,7 +92,19 @@
             <div class="wrap_tab"><a class="tab" href="#div3">投资者关系管理部门 </a></div>                                    
         </div>
     </div>
+</div> -->
+
+<div class="service_wrap">
+    <div class="service_nav">
+        <div class="service_nav_main">
+            <div class="nav_check" id="navon0">公司公告</div>
+            <div id="navon2">定期报告</div> 
+            <div id="navon2">股票信息</div> 
+            <div id="navon3">投资者关系管理部门 </div>                                    
+        </div>
+    </div>
 </div>
+
 <div class="service">
     <div class="service_part1 cont" id="div0">
         <div class="service_part1_top">
@@ -183,8 +197,8 @@
         <div class="servie_part4_main">
             <h3>董事会办公室 </h3>
             <P><span>地&nbsp;&nbsp;&nbsp;址：</span>北京市东城区西总布胡同46号明阳国际中心B座 </P>
-            <P><span>电&nbsp;&nbsp;&nbsp;话：</span>010-65210366</P>
-            <P><span>传&nbsp;&nbsp;&nbsp;真：</span>010-65210399</P>
+            <P><span>电&nbsp;&nbsp;&nbsp;话：</span><span style="color:#fff;">010-65210366</span></P>
+            <P><span>传&nbsp;&nbsp;&nbsp;真：</span><span style="color:#fff;">010-65210399</span></P>
             <P><span>联系人：</span>钱女士  </P>
             <P><span>邮&nbsp;&nbsp;&nbsp;箱：</span>ir@kunlun-inc.com</P>
         </div>
@@ -228,7 +242,7 @@
                 </div>
                 <div class="footer_border"></div>
                 <div class="footer_show_box">
-                    <P style="margin-top: 40px;"> 地  址：北京市 东城区 西总布胡同46号 明阳国际中心B座 <br/> 电  话：010-65210329               传  真：010-65210399 </P>    
+                    <P class="address">地  址：北京市 东城区 西总布胡同46号 明阳国际中心B座</P><P class="tel">电  话：010-65210329 传  真：010-65210399</P>    
                 </div>  
               
             </div>
@@ -242,20 +256,42 @@
     </div>
 </div>
 </div>
+<script src="js/hScroll.js"></script>
+<script type="text/javascript">
+    //初始化
+    new hScroll({
+        nav1: '.service_nav_main>div', //导航对应的元素
+        nav2: '.service .cont', //监听的元素
+        checkClass: 'nav_check' //选中的样式
+    });
+    </script>
 <script> 
     //内容信息导航吸顶
-   $(document).ready(function(){ 
-   var navHeight= $("#navHeight").offset().top; 
-   var navFix=$("#nav_wrap"); 
-   $(window).scroll(function(){ 
-       if($(this).scrollTop()>navHeight){ 
-           navFix.addClass("navFix"); 
-       } 
-       else{ 
-           navFix.removeClass("navFix"); 
-       } 
-       }) 
-   })
+//    $(document).ready(function(){ 
+//    var navHeight= $("#navHeight").offset().top; 
+//    var navFix=$("#nav_wrap"); 
+//    $(window).scroll(function(){ 
+//        if($(this).scrollTop()>navHeight){ 
+//            navFix.addClass("navFix"); 
+//        } 
+//        else{ 
+//            navFix.removeClass("navFix"); 
+//        } 
+//        }) 
+//    })
+
+   
+	$(window).scroll(function() {
+	console.log($('.service_wrap').offset().top)
+		if($(window).scrollTop() >= 824){
+			//console.log('1');
+				$('.service_nav').addClass('fixed');
+			}else{
+			   // $('.service_nav').css('top','0px');
+				$('.service_nav').removeClass('fixed');
+			}
+	});
+   
 //内容信息导航锚点
   $('.nav_wrap').navScroll({
      mobileDropdown: true,

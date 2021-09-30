@@ -112,7 +112,7 @@ p.title1{color:#42494f;font-size:24px;margin-bottom:15px;line-height:0px;}
 .report_tel img{margin-right:12px;}
 .report_tel a:hover{border-bottom:1px solid #b1bfeb;}
 
-.box_upload{border:1px dashed #ccc;width:750px;background:#fff;margin-bottom:0px;height:260px;display:flex;justify-content:center;align-items:center;text-align:center;}
+.box_upload{border:1px dashed #ccc;width:748px;background:#fff;margin-bottom:0px;height:260px;display:flex;justify-content:center;align-items:center;text-align:center;}
 .box_upload p{color:#333333;font-size:30px}
 .box_upload p button{height: 55px;  border-radius: 4px;border-color: #dee0e3;    width:176px;    border: 1px solid #ebedf0;    padding: 0 8px;font-size: 24px; cursor: pointer;}
 
@@ -138,8 +138,8 @@ p.job_img{margin-top: 50px;}
 p.mar_no{margin-bottom:40px;}
 /*投资者关系详情页*/
 .service{width:750px;margin:0 auto;}
- .service_part1{width:638px;margin:0 auto;padding-bottom:108px;padding-top:108px;}
- .service_part2{width:638px;margin:0 auto;padding-bottom:108px;padding-top:0px;}
+ .service_part1{width:638px;margin:0 auto;padding-bottom:98px;padding-top:108px;}
+ .service_part2{width:638px;margin:0 auto;padding-bottom:60px;padding-top:0px;}
  .service_part3{width:750px;background:#f7f8f9;padding-bottom: 114px;}
 .service_banner{width:750px;height:708px;background:url(../images/service_banner.jpg);margin:0 auto; position: relative;}
 .service_title_main{color:#252525;font-size:26px;width:638px;margin:0 auto;}
@@ -147,14 +147,9 @@ p.mar_no{margin-bottom:40px;}
 .service_title_main a:hover{border-bottom:1px solid #252525;}
 .date_box{width:200px; display: flex; flex-direction: column; align-items: center;}
 .servie_part3_main span{display:inline-block;width:100px;}
-.anchor_layer{width:750px;position:relative;;height:80px;z-index:111111;margin:0 auto;}
-.wrap_layer{width:750px;margin:0 auto; display: flex; justify-content: space-around;}
-.nav_wrap{background:#f7f8f9;width:100%;height:80px;border-bottom:1px solid #e9e9e9;z-index:10;}
-.wrap_layer div{color:#040404;float:left;height:80px;line-height:80px;cursor:pointer;font-size:26px;}
-.anchor_layer .nav_wrap .active{border-bottom:4px solid #0052d9;}
-.anchor_layer .nav_wrap.navFix{position:fixed;left:0;top:0;width:750px;border-radius:0;z-index:9999;}
-.wrap_tab a{display:block;height:80px;line-height:80px;color:#000;}
-.cont h2{color:#262626;font-size:36px;font-weight:600;border-bottom:1px solid #e4e4e4;padding-bottom:51px;}
+
+.service_part1  h2{color:#262626;font-size:36px;font-weight:600;border-bottom:1px solid #e4e4e4;padding-bottom:51px;}
+.service_part2  h2{color:#262626;font-size:36px;font-weight:600;padding-bottom:51px;}
 .cont h2 span,.cont h2 span{float:right;font-size:24px;font-weight:normal;margin-top:30px;}
 .cont h2 span a,.cont h2 span a{color:#5a5a5a;}
 .cont h2 span a:hover,.cont h2 span a:hover{border-bottom:1px solid #5a5a5a;padding-bottom:2px;}
@@ -183,7 +178,7 @@ p.mar_no{margin-bottom:40px;}
 .servie_part4_main p{font-size:24px;color:#fff;margin-bottom:10px;color:#fff;}
 .service_part3_main_left,.service_part2_main_right{width:638px;margin:0 auto; }
 .service_part3_main_left{margin-bottom:70px;}
-.service_part3_main{width:750px;margin:0 auto;padding-top:90px;display:flex;flex-direction: column;}
+.service_part3_main{width:750px;margin:0 auto;padding-top:80px;display:flex;flex-direction: column;}
 .service_part3_main_left h2{font-size:36px;color:#262626;font-weight:bold;margin-bottom:100px;}
 .service_part3_main_left .day{color:#040404;font-size:26px;margin-bottom:20px;}
 .investorTitle_top{background:#fff;color:#000;width:638px;height:190px;}
@@ -207,8 +202,8 @@ p.mar_no{margin-bottom:40px;}
 .service_list_banner{width:750px;height:708px;background:url(../images/service_banner.jpg);margin:0 auto; position: relative; margin-top:116px;}
 .service_wrap{width:750px;position:relative;;height:80px;z-index:111111;margin:0 auto;}
 .service_nav{background:#f7f8f9;width:750px;height:80px;border-bottom:1px solid #e9e9e9;z-index:10;}
-.service_list_center{width:638px;margin:0 auto;margin-top:60px;padding-bottom:80px;}
-.service_list_center1{width:598px;border:1px solid #d3d3d3;display:flex;justify-content:space-between;align-items:center;padding:35px 20px;margin-bottom:15px;}
+.service_list_center{width:638px;margin:0 auto;margin-top:60px;padding-bottom:20px;}
+.service_list_center1{width:598px;border:1px solid #d3d3d3;display:flex;justify-content:space-between;align-items:center;padding:35px 20px;margin-bottom:30px;}
 .mr{margin-bottom:100px;}
 .service_list_center1 span.year_date{font-size:36px;color:#040404;font-weight:bold;}
 .service_list_center1 span.year_quarterly{display:inline-block;background-color:#0052d9;width:68px;height:28px;font-size:24px;text-align:center;line-height:28px;margin:10px 20px 0 20px;}
@@ -220,8 +215,21 @@ p.mar_no{margin-bottom:40px;}
 .service_list_center1 span.year_clock img{width:17px;height:17px;}
 .service_list_center1 span.year_down_ico img{width:37px;height:37px;}
 
+.service_wrap{width:750px;position:relative;;height:100px;z-index:111111;    margin: 0 auto;}   
+.service_nav{background:#f7f8f9;width:750px;height:100px;border-bottom:1px solid #e9e9e9;z-index:10; line-height: 100px;}
+.service_nav_main{width:750px;margin:0 auto; display: flex; justify-content: space-around;}
+.service_nav_main div{color:#040404;height:100px;line-height:100px;cursor:pointer;font-size:26px;}
+.nav_check{border-bottom:4px solid #0052d9;}
+.fixed{position:fixed;top:0;left:0;z-index:111111;}
 
-
+/* 
+.anchor_layer{width:750px;position:relative;;height:80px;z-index:111111;margin:0 auto;}
+.wrap_layer{width:750px;margin:0 auto; display: flex; justify-content: space-around;}
+.nav_wrap{background:#f7f8f9;width:100%;height:80px;border-bottom:1px solid #e9e9e9;z-index:10;}
+.wrap_layer div{color:#040404;float:left;height:80px;line-height:80px;cursor:pointer;font-size:26px;}
+.anchor_layer .nav_wrap .active{border-bottom:4px solid #0052d9;}
+.anchor_layer .nav_wrap.navFix{position:fixed;left:0;top:0;width:750px;border-radius:0;z-index:9999;}
+.wrap_tab a{display:block;height:80px;line-height:80px;color:#000;} */
 
 /* .box1{left:130px;top:-20px;}
 .box2{left:455px;top:-20px;}
