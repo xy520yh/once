@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>招聘页面</title>
+<meta name="keywords" content="">
+<meta name="description" content=" ">
+<!--主要样式-->
+<link rel="stylesheet" href="css/content.css">
+<link rel="stylesheet" href="css/common.css">
+<!--mainjs-->
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/headroom1.js"></script> 
+<script type="text/javascript" src="js/phone_main.js"></script> 
+<script>
+    var phoneWidth =  parseInt(window.screen.width);
+    var phoneScale = phoneWidth/750;
+    var ua = navigator.userAgent;
+    if (/Android (\d+\.\d+)/.test(ua)){
+        var version = parseFloat(RegExp.$1);
+        if(version>2.3){
+            document.write('<meta name="viewport" content="width=750, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+        }else{
+            document.write('<meta name="viewport" content="width=750, target-densitydpi=device-dpi">');
+        }
+    } else {
+        document.write('<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">');
+    }
+</script>
+</head>
+<body>
+<div id="wrapper">                
+ <!--menu-->   
+ <div class="nav_box">
+    <div class="nav_box_main">
+        <div class="nav_top">
+            <div class="logo"><img src="images/header_logo.png"></div>
+            <div class="closed"><img src="images/nav_close.png"></div>
+        </div>   
+        <div class="nav_btn">
+            <div class="nav_link">
+                <div class="link01"><a href="index.html">首页</a></div>
+                <div class="link02"><a href="index.html#yewu1" >我们的业务</a></div>
+                <div class="link03"><a href="list.html">新闻动态</a></div>
+                <div class="link04"><a href="investor.html">投资者关系</a></div>
+                <div class="link05 active"><a href="job.html">加入我们</a></div>
+            </div>
+        
+        </div>
+        <div class="nav_icon">
+            <span>简体</span><span>EN</span>
+        </div>
+    </div>
+</div>
+<!--header-->
+<div class="wrap_header headroom"  id="header">
+    <div class="header_content">
+        <div class="nav_top">
+            <div class="header_logo"><img src="images/header_logo.png" alt=""></div>
+            <div class="header_menu"> 
+                <div class="menu-button"  id="menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!--banner-->
+<div class="job_banner">
+    <div class="apply">
+        <div class="apply_job">
+            <a href="#">立即投递</a> 
+        </div>
+    </div>
+    <!-- <video class="video-react-video" preload="auto" loop="" playsinline="" autoplay="" poster="1.jpg" src="media/once.mp4" tabindex="-1"></video> -->
+</div>
+<!--主题介绍-->
+<div class="job_part1">
+    <div class="job_main">
+        <div class="job_part1_left">
+            <h2><img src="images/job_part1_title.jpg"></h2>
+            <P class="black_border">为全世界的用户带去快乐，这是我们核心的价值理念。</P>
+            <P>我们致力于创造出最前沿的文娱社交科技产品，创造快乐、传播快乐。</P>
+            <P class="job_img"><img src="images/job_part1_img.jpg"></P>
+        </div>
+    </div>   
+</div>
+<div class="job_part2">
+    <div class="job_main">
+        <div class="job_part1_left">
+            <h2><img src="images/job_part2_title1.jpg"></h2>
+            <P>用于创新、充满激情，这是我们团队的核心气质。</P>
+            <P>阳光、活力的团队携手创造出创意十足的产品，为亿万用户提供惊奇、喜悦与快乐时刻。</P>
+            <h2 class="margin_t"><img src="images/job_part2_title2.jpg"></h2>
+            <P>潜心了解和挖掘全球不同地区的用户需求，下沉到细分市场，耐心、精心打磨产品。</P>
+            <P> 细致迭代，兼容适配不同国家的终端，拥抱全球多元文化。 </P>
+            <P  class="job_img"><img src="images/job_part2_img.jpg"></P>
+        </div>
+    </div>   
+</div>
+<div class="job_part3">
+    <div class="job_main">
+        <div class="job_part1_left">
+            <h2><img src="images/job_part3_title1.jpg"></h2> 
+            <P>我们在欧洲、美国、日本、韩国、香港、台湾、东南亚均有团队。</P>
+            <P>长期秉持尊重每一个员工的原则，逐渐形成包容开放的团队文化。</P>
+            <h2 class="margin_t"><img src="images/job_part3_title2.jpg"></h2> 
+            <P>昆仑万维拥有信息分发、语音社交、休闲游戏、科技股权投资等不同的业务板块，业务遍及全球，为全球员工提供多样化的机会，开阔视野，成长迅速。</P> 
+            <P class="job_img"> <img src="images/job_part3_img.jpg"></P>
+        </div>
+    </div>   
+</div>
+<div class="job_part4">
+    <div class="job_main">
+        <div class="job_part1_left">
+            <h2><img src="images/job_part4_title1.jpg"></h2>
+            <P>昆仑万维员工食堂在科学搭配、营养丰富的工作餐基础上，日常新增美味可口的地方菜系自助窗口，满足员工的个性化口味偏好，贴心服务，体系化运营。</P>
+            <h2 class="margin_t"><img src="images/job_part4_title2.jpg"></h2>
+            <P>设备先进的健身房+日常竞技有奖比赛+职场康养项目+员工体检，全面呵护员工的身体健康，提升员工的身体素质，为持续创造有价值的产品提供坚实保障。</P>
+            <h2 class="margin_t"><img src="images/job_part4_title3.jpg"></h2>
+            <P>足迹遍布全球的、多样化、丰富的团建项目，放松身心，提升团队凝聚力与创造力。 </P>
+            <p class="job_img "><img src="images/job_part4_img.jpg"></div>
+            <p class="job_img1"><img src="images/job_part4_small_img1.jpg"><img src="images/job_part4_small_img2.jpg"><img src="images/job_part4_small_img3.jpg"></div>
+        </div>
+    </div>   
+</div>
+<!--底部-->
+   <!--footer-->
+   <div class="footer_wrap">
+    <div class="footer_top">
+        <div class="footer_top_main">
+            <div class="footer_top_left">
+                <ul>
+                    <li><a href="#" >关于我们</a></li>
+                    <li ><a href="index.html#yewu1" >我们的业务</a></li>
+                    <li><a href="list.html">新闻动态</a></li>
+                    <li><a href="investor.html">投资者关系</a></li>
+                    <li><a href="report.html" >违法举报</a></li>
+                    <li class="last"><a href="job.html" >加入我们</a></li>
+                </ul>
+            </div>
+            <div class="footer_top_right">
+                <p class="footer_logo"><img src="images/pc_footer_logo.png"></p>
+                <p class="footer_icon"><img src="images/pc_footer_icon.png"></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+            <div class="footer_bottom_01">
+                <div class="footer_show_box1">
+                    <div class="footer_center_left"><a href="#" >联系我们</a></div>
+                    <div class="footer_center_center"><h3>注：仅限集团业务 </h3><h4 class="row"></h4></div>
+                </div>
+            </div>
+            <div class="footer_hide_box active">
+                <div class="footer_show_box">
+                    <P> PR 相  关：jie_wang@kunlun-inc.com</P>    
+                    <P>I R 相  关：ir@kunlun-inc.com</P>   
+                    <P>投诉举报：tousu@kunlun.com</P>  
+                </div>
+                <div class="footer_border"></div>
+                <div class="footer_show_box">
+                    <P style="margin-top: 40px;"> 地  址：北京市 东城区 西总布胡同46号 明阳国际中心B座 <br/> 电  话：010-65210329               传  真：010-65210399 </P>    
+                </div>  
+              
+            </div>
+            <div class="footer_bottom_02">
+                <div class="footer_show_box info">
+                <P>昆仑万维科技股份有限公司</P>    
+                <P>京ICP备09007496号-2    京公网安备11010102000432号    京ICP证080262号（署）网出证（京）字第205号 营业执照 </P>
+                <P>健康游戏忠告：抵制不良游戏，拒绝盗版游戏；注意自我保护，谨防受骗上当；适度游戏益脑，沉迷游戏伤身；合理安排时间，享受健康生活。</P>
+                </div>
+            </div>
+    </div>
+</div>
+</div>
+<script>
+    (function () {
+	var header = document.querySelector("#header");
+	var headroom = new Headroom(header, {
+	  tolerance: {
+		down: 10,
+		up: 20
+	  },
+	  offset: 15
+	});
+	headroom.init();
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>投诉页面</title>
+<meta name="keywords" content="">
+<meta name="description" content=" ">
+<!--主要样式-->
+<link rel="stylesheet" href="css/content.css">
+<link rel="stylesheet" href="css/common.css">
+<!--mainjs-->
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/headroom1.js"></script> 
+<script type="text/javascript" src="js/phone_main.js"></script> 
+<script>
+    var phoneWidth =  parseInt(window.screen.width);
+    var phoneScale = phoneWidth/750;
+    var ua = navigator.userAgent;
+    if (/Android (\d+\.\d+)/.test(ua)){
+        var version = parseFloat(RegExp.$1);
+        if(version>2.3){
+            document.write('<meta name="viewport" content="width=750, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+        }else{
+            document.write('<meta name="viewport" content="width=750, target-densitydpi=device-dpi">');
+        }
+    } else {
+        document.write('<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">');
+    }
+</script>    
+</head>
+<body>
+ <div id="wrapper">      
+ <!--menu-->   
+ <div class="nav_box">
+    <div class="nav_box_main">
+        <div class="nav_top">
+            <div class="logo"><img src="images/header_logo.png"></div>
+            <div class="closed"><img src="images/nav_close.png"></div>
+        </div>   
+        <div class="nav_btn">
+            <div class="nav_link">
+                <div class="link01"><a href="index.html">首页</a></div>
+                <div class="link02"><a href="index.html#yewu1" >我们的业务</a></div>
+                <div class="link03"><a href="list.html">新闻动态</a></div>
+                <div class="link04"><a href="investor.html">投资者关系</a></div>
+                <div class="link05"><a href="job.html">加入我们</a></div>
+            </div>
+        
+        </div>
+        <div class="nav_icon">
+            <span>简体</span><span>EN</span>
+        </div>
+    </div>
+</div>
+<!--header-->
+<div class="wrap_header headroom"  id="header">
+    <div class="header_content">
+        <div class="nav_top">
+            <div class="header_logo"><img src="images/header_logo.png" alt=""></div>
+            <div class="header_menu"> 
+                <div class="menu-button"  id="menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!--banner-->
+<div class="report_banner">
+    <div class="content_banner_main1">
+        <h3>Violation Reporting<br/> Platform</h3>
+        <P>违法举报</P>
+    </div>
+</div>
+<div class="report_wrap">
+    <h2>举报信息</h2>
+    <div class="report_main">
+        <div class="report_main_content">
+            <div class="report_main_center">
+                <div class="line">
+                    <label>举报人邮箱</label>
+                    <input type="" name="" id="" placeholder="请输入邮箱" required="required">
+                </div>
+                <div class="line">
+                    <label>举报电话</label>
+                    <input type="" name="" id="" placeholder="请输入举报电话" required="required">
+                </div>	
+                <div class="line">
+                    <label>举报标题</label>
+                    <input type="" name="" id="" placeholder="请输入标题" required="required">
+                </div>
+                <div class="line">
+                    <label>举报类型</label>
+                    <div class="select_box">
+                        <select class="area">
+                            <option value="886">请选择</option>
+                            <option value="886">台灣+886</option>
+                            <option value="852">香港+852</option>
+                            <option value="853">澳門+853</option>
+                            <option value="65">新加坡+65</option>
+                            <option value="60">馬來西亞+60</option>
+                        </select>
+                    </div>
+                    <!-- <div class="select_type">
+                        <select class="select_ico">
+                        <option value="垃圾信息">垃圾信息</option>
+                        <option value="淫秽色情">淫秽色情</option>
+                        <option value="涉政违法">涉政违法</option>
+                        <option value="危险物品">危险物品</option>
+                        <option value="赌博信息">赌博信息</option>
+                        </select>
+                    </div> -->
+                </div>
+                <div class="line1">
+                    <label>举报内容</label>
+                    <textarea placeholder="请输入内容"></textarea>
+                </div>
+                <div class="line2">
+                    <label>证据上传</label>
+                    <div class="box_upload">
+                        <div class="content_upload">
+                            <p  style="margin-bottom:10px;">证据上传</p>
+                            <P><button>上传附件</button></P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="report_main_bottom">
+                <input type="submit" value="立即提交">
+            </div>
+            
+        </div>   
+        <div class="report_tel"><p><img src="images/report_img1.jpg"><a href="https://www.12321.cn/" target="_blank">12321举报</a><em></em><img src="images/report_img2.jpg"><a href="https://www.12377.cn/" target="_blank">中央网信办举报</a></p></div> 
+
+    </div>
+</div>
+   <!--footer-->
+   <div class="footer_wrap">
+    <div class="footer_top">
+        <div class="footer_top_main">
+            <div class="footer_top_left">
+                <ul>
+                    <li><a href="#" >关于我们</a></li>
+                    <li><a href="index.html#yewu1" >我们的业务</a></li>
+                    <li><a href="list.html">新闻动态</a></li>
+                    <li><a href="investor.html">投资者关系</a></li>
+                    <li><a href="report.html" >违法举报</a></li>
+                    <li class="last"><a href="job.html" >加入我们</a></li>
+                </ul>
+            </div>
+            <div class="footer_top_right">
+                <p class="footer_logo"><img src="images/pc_footer_logo.png"></p>
+                <p class="footer_icon"><img src="images/pc_footer_icon.png"></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+            <div class="footer_bottom_01">
+                <div class="footer_show_box1">
+                    <div class="footer_center_left"><a href="#" >联系我们</a></div>
+                    <div class="footer_center_center"><h3>注：仅限集团业务 </h3><h4 class="row"></h4></div>
+                   
+                </div>
+            </div>
+            <div class="footer_hide_box active">
+                <div class="footer_show_box">
+                    <P> PR 相  关：jie_wang@kunlun-inc.com</P>    
+                    <P>I R 相  关：ir@kunlun-inc.com</P>   
+                    <P>投诉举报：tousu@kunlun.com</P>  
+                </div>
+                <div class="footer_border"></div>
+                <div class="footer_show_box">
+                    <P style="margin-top: 40px;"> 地  址：北京市 东城区 西总布胡同46号 明阳国际中心B座 <br/> 电  话：010-65210329               传  真：010-65210399 </P>    
+                </div>  
+              
+            </div>
+            <div class="footer_bottom_02">
+                <div class="footer_show_box info">
+                <P>昆仑万维科技股份有限公司</P>    
+                <P>京ICP备09007496号-2    京公网安备11010102000432号    京ICP证080262号（署）网出证（京）字第205号 营业执照 </P>
+                <P>健康游戏忠告：抵制不良游戏，拒绝盗版游戏；注意自我保护，谨防受骗上当；适度游戏益脑，沉迷游戏伤身；合理安排时间，享受健康生活。</P>
+                </div>
+            </div>
+    </div>
+</div>
+</div>
+<!--主要js-->  
+<script type="text/javascript" src="js/placeholdem.min.js"></script>
+<script>
+
+  //占位符演示代码
+Placeholdem(document.querySelectorAll('[placeholder]'));
+    (function () {
+	var header = document.querySelector("#header");
+	var headroom = new Headroom(header, {
+	  tolerance: {
+		down: 10,
+		up: 20
+	  },
+	  offset: 15
+	});
+	headroom.init();
+  })();
+</script>
+</body>
+</html>
