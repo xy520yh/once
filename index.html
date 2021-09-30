@@ -662,6 +662,18 @@ var mySwiper = new Swiper ('.banner_swiper', {
             $('.link02').addClass('active');
           jQuery('html,body').animate({scrollTop:$('#yewu1').offset().top-100});
      })
+
+     $(window).scroll(function(){
+			var offh=$(".part4").offset().top;
+			console.log(offh)
+			if ($(window).scrollTop() < (offh-600)) {
+				$('.link01').addClass('active');
+				$('.link02').removeClass('active');
+			} else {
+				$('.link02').addClass('active');
+				$('.link01').removeClass('active');
+			}
+		})
     })
 </script>
 </body>

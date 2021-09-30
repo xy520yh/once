@@ -33,17 +33,7 @@ $(function(){
 
 
 
-		$(window).scroll(function(){
-			var offh=$(".part4").offset().top;
-			console.log(offh)
-			if ($(window).scrollTop() < (offh-600)) {
-				$('.link01').addClass('active');
-				$('.link02').removeClass('active');
-			} else {
-				$('.link02').addClass('active');
-				$('.link01').removeClass('active');
-			}
-		})
+	
 		if (window.location.href.indexOf('yewu1') !== -1) {//不等于-1的时候就是有
 		
 			isBusiness();
@@ -52,7 +42,6 @@ $(function(){
 			//('.link01').addClass('active');
 			// v1111
 		}
-
 	
 		function isBusiness() {
 			//jQuery('html,body').animate({scrollTop:$('#yewu1').offset().top});
