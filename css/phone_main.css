@@ -111,7 +111,7 @@ p.border_line{height:1px;background-color:#dbdcdc;margin-top:15px;margin-bottom:
 .slide_left_logo img{width:638px;height:169px;margin-top:80px;}
 .slide_right{position:absolute;left:0;bottom:0px;}
 .slide_right img{width:750px;height:883px;/* transform-origin:100% 50%;background-position:top right;animation:0.9s scaleIn2 cubic-bezier(0,0.34,0,1.39);*/}
-.slide_left_text{font-size:30px;margin-top:50px;margin-bottom:50px;line-height:55px;}
+.slide_left_text{font-size:30px;margin-top:50px;margin-bottom:25px;line-height:55px;}
 .slide_left_link a{font-size:30px;color:#fff;border-bottom:none;letter-spacing:3px;}
 .slide_left_link a:hover{border-bottom:2px solid #fff;padding-bottom:5px;}
 .slide_left_link{width:330px;}

@@ -1,7 +1,5 @@
 // JavaScript Document
-$(function(){
-
-			
+$(function(){		
 	//点击右上角折叠菜单栏弹出导航
 	$('body').on("click", '#menu', function () {
 		$('.nav_box').toggleClass('active')
@@ -12,50 +10,41 @@ $(function(){
 		$('.nav_box').removeClass('active')
 	
 	});
-	
-	
+	//点击关闭按钮关闭盒子
 	$('body').on("click", '.nav_box .closed', function () {
 		$('.nav_box').removeClass('active')
 	});
+	//底部展开折叠
 	var off=true;
-	$('body').on("click", '.footer_center_center h4', function () {
+	$('body').on("click", '.footer_center_left', function () {
 		if(off){
-			$(".footer_center_center h4").addClass("active");
+			$(".footer_center_left h4").addClass("active");
 		}else{
-			$(".footer_center_center h4").removeClass("active");
+			$(".footer_center_left h4").removeClass("active");
 
 		}
 		off=!off;
 		$('.footer_hide_box').toggleClass('active')
 	
 	});
-
-
-
+	if (window.location.href.indexOf('yewu1') !== -1) {//不等于-1的时候就是有
 	
-		if (window.location.href.indexOf('yewu1') !== -1) {//不等于-1的时候就是有
-		
-			isBusiness();
-		} else {
-			return false;
-			//('.link01').addClass('active');
-			// v1111
-		}
-	
-		function isBusiness() {
-			//jQuery('html,body').animate({scrollTop:$('#yewu1').offset().top});
-			$('.link02').addClass('active');
-			$('.link01').removeClass('active');
-		}
+		isBusiness();
+	} else {
+		return false;
+		//('.link01').addClass('active');
+		// v1111
+	}
 
-
-
-
-
+	function isBusiness() {
+		//jQuery('html,body').animate({scrollTop:$('#yewu1').offset().top});
+		$('.link02').addClass('active');
+		$('.link01').removeClass('active');
+	}
 						
 })
 
-
+	//uc浏览器下关键词特别标出去掉
 $(document).ready(function() {
 
 	function removeUChref(){
@@ -67,9 +56,8 @@ $(document).ready(function() {
 				uca.attr("href","")
 			}
 		}
-	}
-	
-removeUChref();   //调用
+	}	
+	removeUChref();   //调用
 
 })
 
