@@ -52,7 +52,7 @@ a:hover {color: #0f93b9;}
 .part2{background:#f7f8f9;width:750px;position:relative;padding-top:140px;padding-bottom:105px;}
 .part2 h2{font-size:48px;font-weight:600;color:#262626;text-align:center;margin-bottom:53px;}
 .part_content{width:640px;margin:0 auto;}
-.part2 p{font-size:30px;color:#717171;line-height:56px;}
+.part2 p{font-size:30px;color:#717171;line-height:56px;text-align:justify; text-justify:inter-ideograph;}
 .logo_swiper{width:640px;height:270px;margin-bottom:88px;}
 .logo_swiper .swiper-pagination .swiper-pagination-bullet{display:block;width:20px;height:20px;border-radius:50%;background:#e5e5e6;float:left;margin:0 10px;opacity:1;}
 .logo_swiper .swiper-pagination{width:120px;position:relative;height:20px;z-index:1;bottom:20px;left:50%;transform:translateX(-50%);}

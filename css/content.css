@@ -122,19 +122,19 @@ p.title1{color:#42494f;font-size:24px;margin-bottom:15px;line-height:0px;}
 .apply_job{position:absolute;width:500px;height:80px;left:50%;top:650px;text-align:center;margin-left:-250px;;background:#f23535; line-height: 75px;}
 .apply_job a{color:#fff;font-size:48px;font-weight:bold;letter-spacing:4px;border-radius:2px;}
 .apply{position:absolute;top:0;width:100%;height:100%;z-index:1111;}
-.job_part1{width:750px;margin:0 auto;padding-top:90px;padding-bottom:80px;}
-.job_part2{width:750px;margin:0 auto;background:#f4f4f4;margin:0 auto;padding-top:90px; padding-bottom:80px; }
-.job_part3{width:750px;margin:0 auto;padding-top:90px;padding-bottom: 80px;}
-.job_part4{width:750px;margin:0 auto;background:#f4f4f4;padding-top:90px;padding-bottom: 80px;}
+.job_part1{width:750px;margin:0 auto;padding-top:90px;padding-bottom:90px;}
+.job_part2{width:750px;margin:0 auto;background:#f4f4f4;margin:0 auto;padding-top:90px; padding-bottom:90px; }
+.job_part3{width:750px;margin:0 auto;padding-top:90px;padding-bottom: 90px;}
+.job_part4{width:750px;margin:0 auto;background:#f4f4f4;padding-top:90px;padding-bottom: 90px;}
 .job_main{color:#969696;font-size:16px; padding:0 56px}
 .job_main p{line-height:48px;font-size:30px}
 .job_part1_left{width:638px;}
-.job_part1_left h2{margin-bottom:70px;}
+.job_part1_left h2{margin-bottom:45px;}
 p.black_border{border-bottom:1px solid #e4e4e4;padding-bottom:30px;margin-bottom:26px;}
 p.job_img{margin-top: 50px;}
 .black_border{color:#262626;}
 .job_img1{width:638px;display:flex;justify-content:space-between;margin-top:10px;}
-.margin_t{margin-top:45px;}
+.margin_t{margin-top:90px;}
 p.mar_no{margin-bottom:40px;}
 /*投资者关系详情页*/
 .service{width:750px;margin:0 auto;}

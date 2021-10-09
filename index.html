@@ -127,7 +127,7 @@
         </div>
     </div>
       <!--part2-->
-    <div class="part2">
+    <div class="part2" id="about1">
         <div class="part_content">
             <h2 class="mr_4">公司介绍</h2>
             <div class="swiper-container logo_swiper">
@@ -140,7 +140,10 @@
                 <div class="swiper-pagination"></div>
             </div>
             <P>
-                本作为一家全球领先的互联网平台型集团公司，昆仑万维逐渐在全球范围内形成了信息分发平台Opera、语音社交平台Star Group、休闲娱乐平台闲徕互娱、移动游戏平台GameArk、科技股权投资等五大业务版块，覆盖全球4亿以上月活跃用户，市场遍及中国、欧洲、东南亚、中东、北美、南美、非洲等地，为全球互联网用户提供社交、资讯、娱乐等信息化服务。昆仑万维于2015年登陆创业板，全球员工数已增至4000多人，集团旗下的业务和子公司已先后拓展至美国、俄罗斯、日本、韩国、印度，以及欧洲、非洲、东南亚等地的其他国家。
+                作为一家全球领先的互联网平台型公司，昆仑万维逐渐在全球范围内形成了信息分发平台Opera、语音社交平台Star Group、休闲娱乐平台闲徕互娱、移动游戏平台GameArk、科技股权投资等五大业务板块，市场遍及中国、东南亚、非洲、中东、北美、南美、欧洲等地，为全球互联网用户提供社交、资讯、娱乐等信息化服务。截至2021年6月末，昆仑万维整体月活跃用户近4.5亿，其中九成以上用户来自于海外。
+            </P>
+            <P style="margin-top:40px;">
+             昆仑万维于2015年登陆创业板，全球员工数已增至4000多人，集团旗下的业务和子公司已先后拓展至美国、俄罗斯、日本、韩国、印度，以及欧洲、非洲、东南亚等地的其他国家。
             </P>
         </div>
     </div>
@@ -422,7 +425,7 @@
             <div class="footer_top_main">
                 <div class="footer_top_left">
                     <ul>
-                        <li><a href="#" >关于我们</a></li>
+                        <li class="about"><a href="javascript:void(0)">关于我们</a></li>
                         <li class="link02"><a href="javascript:void(0)" >我们的业务</a></li>
                         <li><a href="list.html">新闻动态</a></li>
                         <li><a href="investor.html">投资者关系</a></li>
@@ -462,7 +465,6 @@
                     <div class="footer_show_box info">
                     <P>昆仑万维科技股份有限公司</P>    
                     <P>京ICP备09007496号-2    京公网安备11010102000432号    <a href="#">京ICP证080262号</a>（署）网出证（京）字第205号 营业执照 </P>
-                    <P>健康游戏忠告：抵制不良游戏，拒绝盗版游戏；注意自我保护，谨防受骗上当；适度游戏益脑，沉迷游戏伤身；合理安排时间，享受健康生活。</P>
                     </div>
                 </div>
         </div>
@@ -607,6 +609,10 @@ function getQueryString(name) {
             $('.link01').removeClass('active');
             $('.link02').addClass('active');
           jQuery('html,body').animate({scrollTop:$('#yewu1').offset().top-100});
+     })
+
+     $('.about').click(function(){
+          jQuery('html,body').animate({scrollTop:$('#about1').offset().top-10});
      })
 
      $(window).scroll(function(){
