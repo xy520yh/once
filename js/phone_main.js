@@ -55,3 +55,21 @@ $(function(){
 						
 })
 
+
+$(document).ready(function() {
+
+	function removeUChref(){
+		var hrefArr = $('a')
+		for (var i=0;i<hrefArr.length;i++){
+			var uca = hrefArr[i].href
+			if(uca.indexOf('uc.cn')>=0){
+				uca.attr("style","")
+				uca.attr("href","")
+			}
+		}
+	}
+	
+removeUChref();   //调用
+
+})
+

@@ -29,7 +29,7 @@
 			});
 			$(self.nav1).click(function(e) {
 				$('body,html').animate({
-					scrollTop: arr[$(this).index()] -76+ 'px'
+					scrollTop: arr[$(this).index()] -102+ 'px'
 				});
 			});
 		},
