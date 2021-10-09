@@ -1,7 +1,7 @@
 // JavaScript Document
 $(function(){		
 	//点击右上角折叠菜单栏弹出导航
-	$('body').on("click", '#menu', function () {
+	$('body').on("click", '.header_menu', function () {
 		$('.nav_box').toggleClass('active')
 	
 	});
