@@ -82,7 +82,7 @@ p.title1{color:#42494f;font-size:24px;margin-bottom:15px;line-height:0px;}
 	.pageNum a{margin:0 10px;border-radius:2px;display:inline-block;color:#353535;height:50px;line-height:50px;background:none;width:50px;font-size:26px;border:1px solid #c1c1c1;}
 	.pageNum a:hover,.pageNum .aNow{background:#0052d9;color:#FFF;width:50px;height:50px;border-radius:2px;}
 /*举报页面*/
-.area{width:750px;height:104px;padding-left:56px;background:url(../images/part2_area.jpg) #fff no-repeat;border-bottom:1px solid #e6e6e6;outline:medium;appearance:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;font-size:30px;color:#5a5a5a;background-position:600px 52px;}
+.area{width:750px;height:104px;padding-left:56px;background:url(../images/part2_area.jpg) #fff no-repeat;border-bottom:1px solid #e6e6e6;outline:medium;appearance:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;font-size:30px;color:#5a5a5a;background-position:650px 38px;}
 .report_banner_main{width:750px;margin:0 auto;padding-top:180px;}
 .report_banner{width:750px;height:708px;background:url(../images/report_banner.jpg);margin:0 auto; margin-top:116px;}
 .report_banner_main h3{font-size:60px;font-weight:700;}
@@ -210,7 +210,7 @@ p.mar_no{margin-bottom:40px;}
 .mr{margin-bottom:100px;}
 .service_list_center1 span.year_date{font-size:36px;color:#040404;font-weight:bold;}
 .service_list_center1 span.year_quarterly{display:inline-block;background-color:#0052d9;width:68px;height:28px;font-size:24px;text-align:center;line-height:28px;margin:10px 20px 0 20px;}
-.service_list_center1 span.year_text{color:#a4a4a4;font-size:24px;margin-top:13px;display:inline-block;width:410px;overflow-x:hidden;}
+.service_list_center1 span.year_text{color:#a4a4a4;font-size:24px;margin-top:13px;display:inline-block;width:420px;overflow:hidden;height:30px}
 .service_list_center1 span.year_time1{color:#a4a4a4;font-size:20px;margin-top:13px;}
 .service_list_center1 span.year_clock{margin:16px 10px 0 14px;}
 .service_list_center1 span.year_down_ico{margin:5px 0 0 14px;}
