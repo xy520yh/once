@@ -2,6 +2,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
   legend,table, caption, tbody, tfoot, thead, tr, th,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {margin:0; padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;font-family:微软雅黑, 黑体 ;}
 article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {display:block;}
 ul {list-style:none;}
+*{-webkit-tap-highlight-color: transparent;-webkit-appearance: none;}
 ul,ol,li{list-style:none; margin:0; padding:0;}
 /* h1, h2, h3, h4, h5, h6{font-weight:normal} */
 a {margin:0;padding:0;border:0; text-decoration:none;}
@@ -44,7 +45,7 @@ a:hover {color: #0f93b9;}
 .banner_swiper .swiper-button-next::after,.banner_swiper .swiper-button-prev::after{font-size:0;}
 .banner_text{width:600px;margin:0 auto;height:300px;color:#fff;position:absolute;left:75px;top:290px;z-index:4;}
 .banner_text h2{font-size:52px;margin-bottom:50px;font-weight:bold; text-align: center;}
-.banner_text p{font-size:26px;width:500px;text-align: center;margin:0 auto;}
+.banner_text p{font-size:26px;width:600px;text-align: center;margin:0 auto;}
 .banner_text_c{width:700px;margin:0 auto;height:300px;color:#fff;position:absolute;left:50%;top:220px;z-index:4;transform:translateX(-50%);}
 .banner_text_c h2{font-size:52px;margin-bottom:0px;font-weight:bold; text-align: center;}
 .banner_text_c p{font-size:24px;width:700px;text-align: center;margin:0 auto;}

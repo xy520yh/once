@@ -1,5 +1,8 @@
 
 *{margin:0;padding:0;}
+
+*{-webkit-tap-highlight-color: transparent;-webkit-appearance: none;}
+
 ul {list-style:none;}
 ul,ol,li{list-style:none; margin:0; padding:0;}
 h1, h2, h3, h4, h5, h6{font-weight:normal}
@@ -85,7 +88,7 @@ p.title1{color:#42494f;font-size:24px;margin-bottom:15px;line-height:0px;}
 .report_banner_main h3{font-size:60px;font-weight:700;}
 .report_banner_main p{font-size:28px;}
 .report_wrap{width:750px;margin:0 auto;}
-.report_main{width:750px;background-color:#f6f6f6;padding-top:60px;padding-bottom:140px;position:relative;}
+.report_main{width:750px;background-color:#f6f6f6;padding-top:60px;padding-bottom:220px;position:relative;}
 .report_wrap h2{color:#262626;font-size:36px;font-weight:600;padding-top: 60px;padding-bottom: 50px; margin-left:56px;}
 .line input,.line1 textarea{color:#5a5a5a;font-family:'微软雅黑';}
 .line input:focus,.line1 textarea:focus{border-color:#333;color:#333;border:1px solid#f2f2f2;outline:none;}
@@ -104,7 +107,7 @@ p.title1{color:#42494f;font-size:24px;margin-bottom:15px;line-height:0px;}
 .report_main_content .report_main_bottom input{text-align:center;cursor:pointer;width:420px;height:115px;background-color:#0052d9;font-size:48px;color:#fff;border:none;outline:none;border-radius:1px;}
 .report_main_content .report_main_bottom input:hover{background-color:#369ee6;}
 .report_main_center{min-height:500px;}
-.report_tel{position:absolute;right:50px;bottom:60px;color:#547ddf;font-size:22px;height:22px;}
+.report_tel{position:absolute;right:50px;bottom:120px;color:#547ddf;font-size:22px;height:22px;}
 .report_tel p{height:22px;line-height:22px;display:flex;align-items:center;}
 .report_tel img{width:22px;height:22px;}
 .report_tel a{color:#547ddf;display:inline-block;height:22px;line-height:24px;border-bottom:1px solid #b1bfeb;}
@@ -119,7 +122,7 @@ p.title1{color:#42494f;font-size:24px;margin-bottom:15px;line-height:0px;}
 
 /*招聘页面*/
 .job_banner{width:750px;height:766px;background:url(../images/job_banner.jpg);margin:0 auto;position:relative;margin-top:116px;}
-.apply_job{position:absolute;width:500px;height:80px;left:50%;top:650px;text-align:center;margin-left:-250px;;background:#f23535; line-height: 75px;}
+.apply_job{position:absolute;width:500px;height:90px;left:50%;top:603px;text-align:center;margin-left:-250px;;background:#f23535; line-height: 88px;}
 .apply_job a{color:#fff;font-size:48px;font-weight:bold;letter-spacing:4px;border-radius:2px;}
 .apply{position:absolute;top:0;width:100%;height:100%;z-index:1111;}
 .job_part1{width:750px;margin:0 auto;padding-top:90px;padding-bottom:90px;}
@@ -157,8 +160,8 @@ p.mar_no{margin-bottom:40px;}
 .service_part1_left_news ul{border-bottom:1px solid #e4e4e4;padding-bottom:35px;}
 .service_part1_left_news li p{color:#040404;font-size:24px;margin-top:28px;width:510px;white-space: nowrap;   text-overflow: ellipsis;overflow: hidden; margin-bottom: 27px;}
 .service_part1_left_news li span{color:#a4a4a4;font-size:24px;}
-.service_part1_left_news ul li{border-left:5px solid #e6e6e6;padding-bottom:35px;height:53px;padding-left:20px;background:url(../images/service_ico.png) no-repeat 598px center;background-size:33px 33px;}
-.service_part1_left_news ul a:hover li{border-left:5px solid #0052d9;padding-bottom:35px;height:53px;padding-left:20px;background:url(../images/service_ico_hover.png) no-repeat 598px center;background-size:33px 33px;}
+.service_part1_left_news ul a:hover li{border-left:5px solid #e6e6e6;padding-bottom:35px;height:53px;padding-left:20px;background:url(../images/service_ico.png) no-repeat 598px center;background-size:33px 33px;}
+.service_part1_left_news ul  li{border-left:5px solid #0052d9;padding-bottom:35px;height:53px;padding-left:20px;background:url(../images/service_ico_hover.png) no-repeat 598px center;background-size:33px 33px;}
 .service_part1_right_down{position:relative;width:638px;}
 .service_part1_right h2{color:#262626;font-size:36px;font-weight:600;padding-bottom:30px;margin-bottom:40px;}
 .service_part1_right h2 span{float:right;font-size:24px;font-weight:normal;}
@@ -213,7 +216,7 @@ p.mar_no{margin-bottom:40px;}
 .service_list_center1 span.year_down_ico{margin:5px 0 0 14px;}
 .service_list_center1 p span{float:left;display:inline-block;}
 .service_list_center1 span.year_clock img{width:17px;height:17px;}
-.service_list_center1 span.year_down_ico img{width:37px;height:37px;}
+.service_list_center1 span.year_down_ico img{width:60px;height:60px;}
 
 .service_wrap{width:750px;position:relative;;height:100px;z-index:111111;    margin: 0 auto;}   
 .service_nav{background:#f7f8f9;width:750px;height:100px;border-bottom:1px solid #e9e9e9;z-index:10; line-height: 100px;}
