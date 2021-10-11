@@ -24,6 +24,7 @@
 .nav_btn{border-top: 1px solid #8e8e8e;}
 .nav_icon{color:#363636;font-size: 28px; text-align: left;border-top: 1px solid #8e8e8e;width:638px;padding-top:36px;}
 .nav_icon span{margin-left: 30px; cursor: pointer;}
+.nav_icon span a{color:#363636;}
 .nav_top{width:638px;display: flex; justify-content: space-between; align-items: center;height:116px;}
 .nav_box .closed,.header_menu{width:100px; height: 65px;padding-top:40px;cursor: pointer;}
 .nav_box .closed img{width:36px;height:36px;transition: all 0.3s;float:right;}

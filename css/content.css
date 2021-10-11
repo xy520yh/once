@@ -89,7 +89,7 @@ p.title1{color:#42494f;font-size:24px;margin-bottom:15px;line-height:0px;}
 .report_banner_main p{font-size:28px;}
 .report_wrap{width:750px;margin:0 auto;}
 .report_main{width:750px;background-color:#f6f6f6;padding-top:60px;padding-bottom:220px;position:relative;}
-.report_wrap h2{color:#262626;font-size:36px;font-weight:600;padding-top: 60px;padding-bottom: 50px; margin-left:56px;}
+.report_wrap h2{color:#262626;font-size:36px;font-weight:bold;padding-top: 60px;padding-bottom: 50px; margin-left:56px;}
 .line input,.line1 textarea{color:#5a5a5a;font-family:'微软雅黑';}
 .line input:focus,.line1 textarea:focus{border-color:#333;color:#333;border:1px solid#f2f2f2;outline:none;}
 .report_main_content{width:750px;margin:0 auto;}
@@ -151,8 +151,8 @@ p.mar_no{margin-bottom:40px;}
 .date_box{width:200px; display: flex; flex-direction: column; align-items: center;}
 .servie_part3_main span{display:inline-block;width:100px;}
 
-.service_part1  h2{color:#262626;font-size:36px;font-weight:600;border-bottom:1px solid #e4e4e4;padding-bottom:51px;}
-.service_part2  h2{color:#262626;font-size:36px;font-weight:600;padding-bottom:51px;}
+.service_part1  h2{color:#262626;font-size:36px;font-weight:bold;border-bottom:1px solid #e4e4e4;padding-bottom:51px;}
+.service_part2  h2{color:#262626;font-size:36px;font-weight:bold;padding-bottom:51px;}
 .cont h2 span,.cont h2 span{float:right;font-size:24px;font-weight:normal;margin-top:30px;}
 .cont h2 span a,.cont h2 span a{color:#5a5a5a;}
 /* .cont h2 span a:hover,.cont h2 span a:hover{border-bottom:1px solid #5a5a5a;padding-bottom:2px;} */
@@ -163,7 +163,7 @@ p.mar_no{margin-bottom:40px;}
 .service_part1_left_news ul a:hover li{border-left:5px solid #e6e6e6;padding-bottom:35px;height:53px;padding-left:20px;background:url(../images/service_ico.png) no-repeat 598px center;background-size:33px 33px;}
 .service_part1_left_news ul  li{border-left:5px solid #0052d9;padding-bottom:35px;height:53px;padding-left:20px;background:url(../images/service_ico_hover.png) no-repeat 598px center;background-size:33px 33px;}
 .service_part1_right_down{position:relative;width:638px;}
-.service_part1_right h2{color:#262626;font-size:36px;font-weight:600;padding-bottom:30px;margin-bottom:40px;}
+.service_part1_right h2{color:#262626;font-size:36px;font-weight:bold;padding-bottom:30px;margin-bottom:40px;}
 .service_part1_right h2 span{float:right;font-size:24px;font-weight:normal;}
 .year_line{position:absolute;left:0px;top:-22px}
 .year_line img{width:15px;height:357px;}
