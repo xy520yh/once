@@ -31,8 +31,7 @@
 .nav_box_main{width:638px;margin:0 auto;}
 /*公共底部*/
 .footer_wrap{width:750px;margin:0 auto;}
-/* background:url(../images/pc_footer_bg.jpg) no-repeat;padding-top:53px; */
-.footer_top{width:750px;height:400px;background:#f00;}
+.footer_top{width:750px;height:400px;background:url(../images/pc_footer_bg.jpg) no-repeat;padding-top:53px;}
 .footer_top_main{width:618px;margin:0 auto; display: flex; justify-content:space-between;height:360px;}
 .footer_top_left ul{display: flex; justify-content:space-between;height:360px; flex-direction: column;}
 .footer_top_left li{font-size:30px;}
