@@ -16,7 +16,7 @@ $(function(){
 	});
 	//底部展开折叠
 	var off=true;
-	$('body').on("click", '.footer_center_left', function () {
+	$('body').on("click", '.footer_bottom_01', function () {
 		if(off){
 			$(".footer_center_left h4").addClass("active");
 		}else{

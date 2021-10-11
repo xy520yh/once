@@ -123,7 +123,7 @@ p.border_line{height:1px;background-color:#dbdcdc;margin-top:15px;margin-bottom:
 .news_main{margin-top:60px;}
 .news .swiper-button-next{position:absolute;top:140px;right:10px;width:20px;height:50px;color:#000;border:none;outline:none;}
 .news .swiper-button-prev{position:absolute;top:140px;left:1420px;width:20px;height:50px;color:#000;border:none;outline:none;}
-.news_list .item{text-align:left;border:1px solid #d3d3d3;width:638px;height:536px;display:inline-block;padding-bottom:20px;border-radius:2px;overflow:hidden;transition:all .3s ease-in-out;}
+.news_list .item{text-align:left;border:1px solid #d3d3d3;width:638px;height:540px;display:inline-block;padding-bottom:20px;border-radius:2px;overflow:hidden;transition:all .3s ease-in-out;}
 .news h2{text-align:center;font-size:48px;font-weight:600;color:#262626;text-align:center;margin-bottom:53px}
 .news_list a span{transition:all 0.1s;color:#5a5a5a;margin-top:20px; font-size: 22px;}
 /* .news_list a:hover span{border-bottom:1px solid #5a5a5a;padding-bottom:2px;} */
