@@ -484,12 +484,11 @@ var swiper = new Swiper('.logo_swiper', {
 /*头部banner*/
 var mySwiper = new Swiper ('.banner_swiper', {
         effect: 'fade',
-        observer: true,
-        observeParents: true,
-        // navigation: {
-        //     nextEl: '.banner_swiper .swiper-button-next',
-        //     prevEl: '.banner_swiper .swiper-button-prev',
-        // },
+        resizeObserver: true,
+        navigation: {
+            nextEl: '.banner_swiper .swiper-button-next',
+            prevEl: '.banner_swiper .swiper-button-prev',
+        },
         fadeEffect: {
             crossFade: true,
         },
@@ -499,7 +498,11 @@ var mySwiper = new Swiper ('.banner_swiper', {
             el: '.swiper-pagination',
             clickable: true,
         },
-        on:{ 
+      
+        on:{
+        resize: function(){
+            this.update(); 
+        }, 
         init: function(){
             swiperAnimateCache(this); //隐藏动画元素 
             swiperAnimate(this); //初始化完成开始动画
@@ -510,6 +513,101 @@ var mySwiper = new Swiper ('.banner_swiper', {
         } 
         }
     }) 
+// function getQueryString(name) {
+//   var reg = new RegExp("(^|/?|&)" + name + "=([^&]*)(&|$)", "i");
+//   var r = decodeURIComponent(location.href).substr(1).match(reg);
+//   if (r != null) return r[2];
+//   return null;
+// }
+
+//     var type = getQueryString('type');
+//     if (!type) type = 1;
+//     type = parseInt(type) - 1;
+//     console.log(type)
+
+//     var systemThumbs = new Swiper('.world-thumbs', {
+//       //  direction: 'vertical',
+//       initialSlide: type,
+//       slidesPerView: '4',
+//       loopedSlides:20,//6组角色		 		
+//       loop: true,
+//       on: {
+//         slideChange: function () {
+//           var index = this.activeIndex;
+//           galleryTop.slideTo(index);
+
+//         },
+//         // click:function(){
+//         //     var index = this.clickedIndex;
+//         //     console.log(index);
+//         //     systemThumbs.slideTo(index);
+//         // },
+//       },
+//     });
+//     var galleryTop = new Swiper('.world_top', {
+//       initialSlide: type,
+//       spaceBetween: 0,
+//       autoHeight: true, //高度随内容变化
+//       loop: true,
+//       loopedSlides: 20,//6组角色
+//       on: {
+//         slideChange: function () {
+//           var index = galleryTop.activeIndex;
+//           systemThumbs.slideTo(index);
+//         },
+//       },
+//     });
+//     //点击按钮切换
+//     $('body').on('click', '.world-thumbs .swiper-slide', function () {
+//       var index = $(this).attr('data-swiper-slide-index');
+//       systemThumbs.slideTo(index)
+//     })
+
+
+
+
+//     function getQueryString(name) {
+//   var reg = new RegExp("(^|/?|&)" + name + "=([^&]*)(&|$)", "i");
+//   var r = decodeURIComponent(location.href).substr(1).match(reg);
+//   if (r != null) return r[2];
+//   return null;
+// }
+//     var type = getQueryString('type');
+//     if (!type) type = 1;
+//     type = parseInt(type) - 1;
+    // var systemThumbs = new Swiper('.world-thumbs', {
+    //   initialSlide: 0,
+    //   direction: 'horizontal',
+    //   slidesPerView: '4',
+    //   loopedSlides: 7,//6组角色
+    //   loop: true,
+    //   navigation: {
+    //     nextEl: '.arrow',
+    //   },
+    //   on: {
+    //     slideChange: function () {
+    //       var index = this.activeIndex;
+    //       galleryTop.slideTo(index)
+    //     },
+    //   },
+    // });
+    // var galleryTop = new Swiper('.world_top', {
+    //   initialSlide: 0,
+    //   autoHeight: true, //高度随内容变化
+    //   spaceBetween: 0,
+    //   loop: true,
+    //  // effect: 'fade',
+    //   on: {
+    //     slideChange: function () {
+    //       var index = galleryTop.activeIndex;
+    //       systemThumbs.slideTo(index);
+    //     },
+    //   },
+    //   loopedSlides: 7,//6组角色
+    // });
+
+
+
 
     var systemThumbs = new Swiper('.world-thumbs', {
       //  direction: 'vertical',
@@ -544,6 +642,24 @@ var mySwiper = new Swiper ('.banner_swiper', {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*公司banner*/
     var swiper = new Swiper('.part4_swiper', {
       autoplay: {
@@ -551,8 +667,6 @@ var mySwiper = new Swiper ('.banner_swiper', {
         stopOnLastSlide: false,
         disableOnInteraction: true,
      },
-     observer: true,
-        observeParents: true,
      loop:true,
      // mousewheel: true,
       noSwiping : true,
