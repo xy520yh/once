@@ -542,24 +542,23 @@ var mySwiper = new Swiper ('.banner_swiper', {
 
 
 
-/*公司banner*/
     var swiper = new Swiper('.part4_swiper', {
+     
       autoplay: {
         delay: 4000,
         stopOnLastSlide: false,
         disableOnInteraction: true,
      },
-     observer: true,
-        observeParents: true,
-     loop:true,
-     // mousewheel: true,
+    loop:true,
       effect: 'fade', 
+      observer: true,
       pagination: {
         el: '.part4_swiper .swiper-pagination',
         clickable: true,
       },
-
+     
       on: {
+        
         init: function () {
           swiperAnimateCache(this); //隐藏动画元素 
           swiperAnimate(this); //初始化完成开始动画
@@ -568,7 +567,35 @@ var mySwiper = new Swiper ('.banner_swiper', {
           swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
         },
       },
-    }); 
+    });
+
+/*公司banner*/
+    // var swiper = new Swiper('.part4_swiper', {
+    //   autoplay: {
+    //     delay: 4000,
+    //     stopOnLastSlide: false,
+    //     disableOnInteraction: true,
+    //  },
+    //  observer: true,
+    //     observeParents: true,
+    //  loop:true,
+    //  // mousewheel: true,
+    //   effect: 'fade', 
+    //   pagination: {
+    //     el: '.part4_swiper .swiper-pagination',
+    //     clickable: true,
+    //   },
+
+    //   on: {
+    //     init: function () {
+    //       swiperAnimateCache(this); //隐藏动画元素 
+    //       swiperAnimate(this); //初始化完成开始动画
+    //     },
+    //     slideChangeTransitionEnd: function () {
+    //       swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+    //     },
+    //   },
+    // }); 
 	//导航滚动出来
 	(function () {
 		var header = document.querySelector("#header");
