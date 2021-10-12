@@ -18,6 +18,10 @@ html{min-height: 100%;overflow: auto;position:relative;	z-index: 1;	background: 
 body{position: relative;z-index:1;font-size:15px;color:#4A4A4A; }
 body a {-webkit-transition: all .3s;transition: all .3s;}
 p { max-height: 999999px; }
+*:before,
+*:after {
+  z-index: -1;
+}
 /* basics */
 a:hover {color: #0f93b9;}
 /*首页*/
@@ -120,10 +124,6 @@ p.border_line{height:1px;background-color:#dbdcdc;margin-top:15px;margin-bottom:
 /* .slide_left_link a:hover{border-bottom:2px solid #fff;padding-bottom:5px;} */
 .slide_left_link{width:330px;}
 .banner_text{z-index:11111;}
-
-
-
-
 /*part5*/
 .part5{width:750px;position:relative;}
 .news{width:750px;margin:0 auto;padding-top:70px;padding-bottom:80px;position:relative;}
