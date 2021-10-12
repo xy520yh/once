@@ -1,10 +1,10 @@
-/* html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label,
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label,
   legend,table, caption, tbody, tfoot, thead, tr, th,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {margin:0; padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;font-family:微软雅黑, 黑体 ;}
 article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {display:block;}
 ul {list-style:none;}
 *{-webkit-tap-highlight-color: transparent;-webkit-appearance: none;}
 ul,ol,li{list-style:none; margin:0; padding:0;}
-
+/* h1, h2, h3, h4, h5, h6{font-weight:normal} */
 a {margin:0;padding:0;border:0; text-decoration:none;}
 ins { background-color:#ff9;color:#000;text-decoration:none;}
 mark {background-color:#ff9;color:#000; font-style:italic;font-weight:bold;}
@@ -13,52 +13,11 @@ input, select { vertical-align:middle; border:none; margin:0; padding:0;}
 em{font-weight: bold;font-style: italic;}
 .hidden{display: none;}
 hr{ line-height:1; height:1px; background:none; border-top:1px dashed #9F9F9F;border-bottom:1px dashed #fff;}
-
+/* [background]  */
 html{min-height: 100%;overflow: auto;position:relative;	z-index: 1;	background: #fff;}
 body{position: relative;z-index:1;font-size:15px;color:#4A4A4A; }
 body a {-webkit-transition: all .3s;transition: all .3s;}
-p { max-height: 999999px; } */
-/* h1, h2, h3, h4, h5, h6{font-weight:normal} */
-*:before,
-*:after {
-  z-index: -1;
-}
-
-
-
-
-
-*{margin:0;padding:0;box-sizing: border-box;}
-ul {list-style:none;}
-ul,ol,li{list-style:none; margin:0; padding:0;}
-h1, h2, h3, h4, h5, h6{font-weight:normal}
-a {margin:0;padding:0;border:0; text-decoration:none;}
-ins { background-color:#ff9;color:#000;text-decoration:none;}
-mark {background-color:#ff9;color:#000; font-style:italic;font-weight:bold;}
-del {text-decoration: line-through;}
-input, select { vertical-align:middle; border:none; margin:0; padding:0; outline: none;}
-em{font-weight: bold;font-style: italic;}
-.hidden{display: none;}
-hr{ line-height:1; height:1px; background:none; border-top:1px dashed #9F9F9F;border-bottom:1px dashed #fff;}
-img {border:0;}
-html{min-height: 100%;overflow: auto;position:relative;	z-index: 1;	background: #fff;font-family:"微软雅黑";overflow-x: hidden;}
-a {text-decoration: none;cursor: pointer;border:none;outline:none;}
-.clearfix:before,
-.clearfix:after {display: table;content: "";    /*不用有内容也可以*/}
-.clearfix:after {clear: both;}
-.clearfix {*zoom: 1;}
-h2.mr_4{margin-bottom:0.37rem;}
-input::-webkit-input-placeholder {color: #b57a65;}
-input::-moz-placeholder {color: #b57a65;}
-input:-moz-placeholder {color: #b57a65;}
-input:-ms-input-placeholder {color: #b57a65;}
-input[type=number] {-moz-appearance: textfield;}
-input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {	-webkit-appearance: none;}
-/* body a {-webkit-transition: all .3s;transition: all .3s;} */
-a:hover {color: #f00;}
-body{position: relative;-webkit-text-size-adjust: none;color: #fff;font-size: 0.24rem;}
-.hand{ cursor:pointer;transition: all .6s;}
-
+p { max-height: 999999px; }
 /* basics */
 a:hover {color: #0f93b9;}
 /*首页*/
