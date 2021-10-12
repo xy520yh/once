@@ -553,17 +553,13 @@ var mySwiper = new Swiper ('.banner_swiper', {
         observeParents: true,
      loop:true,
      // mousewheel: true,
-      noSwiping : true,
       effect: 'fade', 
       pagination: {
         el: '.part4_swiper .swiper-pagination',
         clickable: true,
       },
-      resizeObserver: true,
+
       on: {
-        resize: function(){
-            this.update(); 
-        }, 
         init: function () {
           swiperAnimateCache(this); //隐藏动画元素 
           swiperAnimate(this); //初始化完成开始动画
