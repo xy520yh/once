@@ -135,7 +135,7 @@ p.border_line{height:1px;background-color:#dbdcdc;margin-top:15px;margin-bottom:
 .swiper-fullscreen .slide3{background:url(../images/part4_banner_xl.jpg);background-size:1920px 960px;position:relative;}
 .swiper-fullscreen .slide4{background:url(../images/part4_banner_ga.jpg);background-size:1920px 960px;position:relative;}
 .swiper-fullscreen .slide5{background:url(../images/part4_banner_kl1.jpg);background-size:1920px 960px;position:relative;}
-.swiper-fullscreen .swiper-pagination{position:absolute;height:300px;text-align:center;width:100px;left:0px;top:0px;}
+.swiper-fullscreen .swiper-pagination{position:absolute;height:300px;text-align:center;width:100px;left:0px;top:12s0px;}
 .part4_banner .swiper-fullscreen .swiper-pagination-bullet{display:block;width:20px;height:20px;background:#fff;border-radius:50%;margin-bottom:50px;opacity:1;margin-left:10px;}
 .part4_banner .swiper-pagination span:not([class="swiper-pagination-bullet"]){margin-left:0px;}
 .swiper-fullscreen .swiper-pagination-bullet img{width:40px;height:40px;margin-bottom:50px;}
