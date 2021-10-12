@@ -39,7 +39,8 @@ body{position: relative;-webkit-text-size-adjust: none;color: #fff;font-size: 0.
 .content_main{width:638px;margin:0 auto;}
 .content_main_top h2{font-size:36px;color:#131313;text-align:left;margin-bottom:35px;}
 .left_title{text-align:left;border-bottom:1px solid #d9d9d9;margin-bottom:70px;}
-.content_main_top p{font-size:30px;color:#131313;text-indent:30px;margin-bottom:15px;line-height:48px;}
+.content_main_top p{font-size:30px;color:#131313;margin-bottom:15px;line-height:48px;    text-align: justify;
+    text-justify: inter-ideograph;}
 .left_img img{width:638px;height:auto;margin-bottom:60px;margin-top:60px;}
 .content_main_bottom{width:638px;margin-top:68px;}
 .right_title p{color:#131313;font-size:36px;text-align:left;margin-top:5px;}
