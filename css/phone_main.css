@@ -124,44 +124,6 @@ p.border_line{height:1px;background-color:#dbdcdc;margin-top:15px;margin-bottom:
 
 
 
-
-
-
-.part4_banner{width:750px;height:960px;}
-.swiper-fullscreen{width:750px;height:100%;position:relative;}
-.swiper-fullscreen >.swiper-wrapper>.swiper-slide{background-repeat:no-repeat;background-position:center center;background-size:cover;}
-/* .swiper-fullscreen .slide1{background:url(../images/part4_banner_op.jpg);background-size:1920px 960px;position:relative;}
-*/
- .swiper-fullscreen .slide2{background:url(../images/part4_banner_st.jpg);background-size:1920px 960px;position:relative;}
-.swiper-fullscreen .slide3{background:url(../images/part4_banner_xl.jpg);background-size:1920px 960px;position:relative;}
-.swiper-fullscreen .slide4{background:url(../images/part4_banner_ga.jpg);background-size:1920px 960px;position:relative;}
-.swiper-fullscreen .slide5{background:url(../images/part4_banner_kl1.jpg);background-size:1920px 960px;position:relative;}
-.swiper-fullscreen .swiper-pagination{position:absolute;height:300px;right:50px;text-align:center;width:100px;left:0px;}
-.part4_banner .swiper-fullscreen .swiper-pagination-bullet{display:block;width:20px;height:20px;background:#fff;border-radius:50%;margin-bottom:50px;opacity:1;margin-left:10px;}
-.part4_banner .swiper-pagination span:not([class="swiper-pagination-bullet"]){margin-left:0px;}
-.swiper-fullscreen .swiper-pagination-bullet img{width:40px;height:40px;margin-bottom:50px;}
-.swiper-fullscreen .swiper-pagination-bullet-active{z-index:9;font-size:14px;height:50px;width:50px;text-align:center;line-height:50px;border-radius:50%;display:inline-block;margin-bottom:25px;position:relative;}
-.swiper-fullscreen .swiper-pagination span.swiper-pagination-bullet-active:nth-of-type(1){background:url(../images/logo1.png);width:40px;height:39px;display:block;}
-.swiper-fullscreen .swiper-pagination span.swiper-pagination-bullet-active:nth-of-type(2){background:url(../images/logo2.png);width:40px;height:39px;display:block;}
-.swiper-fullscreen .swiper-pagination span.swiper-pagination-bullet-active:nth-of-type(3){background:url(../images/logo3.png);width:40px;height:39px;background-size:40px 39px;display:block;}
-.swiper-fullscreen .swiper-pagination span.swiper-pagination-bullet-active:nth-of-type(4){background:url(../images/logo4.png);width:40px;height:39px;background-size:40px 39px;display:block;}
-.swiper-fullscreen .swiper-pagination span.swiper-pagination-bullet-active:nth-of-type(5){background:url(../images/logo5.png);width:40px;height:39px;background-size:40px 39px;display:block;}
-.swiper-fullscreen .swiper-pagination-bullet-active::before{content:"";position:absolute;left:-25%;top:-25%;height:60px;width:60px;background:rgba(255,255,255,0.479);z-index:-1;border-radius:50%;transform-origin:center center;animation:pulse-border 1500ms 0.5s ease-out infinite;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*part5*/
 .part5{width:750px;position:relative;}
 .news{width:750px;margin:0 auto;padding-top:70px;padding-bottom:80px;position:relative;}
