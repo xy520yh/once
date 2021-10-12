@@ -46,8 +46,8 @@ a:hover {color: #0f93b9;}
 .banner_text{width:600px;margin:0 auto;height:300px;color:#fff;position:absolute;left:75px;top:290px;z-index:4;}
 .banner_text h2{font-size:52px;margin-bottom:50px;font-weight:bold; text-align: center;}
 .banner_text p{font-size:26px;width:600px;text-align: center;margin:0 auto;}
-.banner_text_c{width:700px;margin:0 auto;height:300px;color:#fff;position:absolute;left:50%;top:220px;z-index:4;transform:translateX(-50%);}
-.banner_text_c h2{font-size:52px;margin-bottom:0px;font-weight:bold; text-align: center;}
+.banner_text_c{width:700px;margin:0 auto;height:300px;color:#fff;position:absolute;left:50%;top:210px;z-index:4;transform:translateX(-50%);}
+.banner_text_c h2{font-size:52px;margin-bottom:15px;font-weight:bold; text-align: center;}
 .banner_text_c p{font-size:24px;width:700px;text-align: center;margin:0 auto;}
 /*第二屏 */
 .part2{background:#f7f8f9;width:750px;position:relative;padding-top:140px;padding-bottom:105px; }
@@ -75,7 +75,8 @@ a:hover {color: #0f93b9;}
 .world_right_text h2{font-size:36px;color:#464646;font-weight:bold;margin-bottom:55px;}
 .world_right_text p{color:#6b6b6b;font-size:30px;line-height:48px;}
 .world_right_img{width:638px;}
-.world_right_text{width:638px;margin-bottom: 75px;}
+.world_right_text{width:638px;margin-bottom: 75px;height:252px;overflow: hidden;    text-align: justify;
+    text-justify: inter-ideograph;}
 p.border_line{height:1px;background-color:#dbdcdc;margin-top:15px;margin-bottom:15px;}
 /* .event_left_con .swiper-slide-next + .swiper-slide{font-size:43px;opacity:.5;}
 .event_left_con .swiper-slide-next + .swiper-slide + .swiper-slide{font-size:43px;opacity:.2;}
@@ -137,10 +138,7 @@ p.border_line{height:1px;background-color:#dbdcdc;margin-top:15px;margin-bottom:
  -moz-transition-delay:0s;-moz-transition-duration:1s;-moz-transition-property:all;-moz-transition-timing-function:ease;/* Safari 和 Chrome */
  -webkit-transition-delay:0s;-webkit-transition-duration:1s;-webkit-transition-property:all;-webkit-transition-timing-function:ease;/* Opera */
  -o-transition-delay:0s;-o-transition-duration:1s;-o-transition-property:all;-o-transition-timing-function:ease;}
-.news_list a:hover img{transform:scale(1.2,1.2);-ms-transform:scale(1.2,1.2);/* IE 9 */
- -moz-transform:scale(1.2,1.2);/* Firefox */
- -webkit-transform:scale(1.2,1.2);/* Safari 和 Chrome */
- -o-transform:scale(1.2,1.2);/* Opera */}
+
  .news_list{margin:0 auto;width:638px;}
 
 /*返回顶部*/

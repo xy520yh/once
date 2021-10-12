@@ -48,7 +48,7 @@ body{position: relative;-webkit-text-size-adjust: none;color: #fff;font-size: 0.
 .other_common{display: flex; justify-content: space-between;}
 .content_item .scale_i{width:309px;height:auto;overflow:hidden;display:inline-block;}
 .content_item img{width:309px;height:190px;transition:all 0.5s ease;}
-.content_item:hover img{transform:scale(1.2);}
+/* .content_item:hover img{transform:scale(1.2);} */
 .content_item p{font-size:28px;color:#131313;margin-top:13px;overflow:hidden;width:309px;text-overflow:ellipsis;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;}
 .right_title{border-bottom:1px solid #d9d9d9;padding-bottom:15px;margin-bottom:50px;}
 p.title1{color:#42494f;font-size:24px;margin-bottom:15px;line-height:0px;}
