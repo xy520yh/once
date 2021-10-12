@@ -18,13 +18,11 @@
 <link rel="stylesheet" href="css1/common.css">
 <!--rem适配-->
 <script type="text/javascript" src="js1/jquery-1.8.2.min.js"></script>
-
+<script src="js1/devicerem.js"></script>
 <script src="js1/headroom1.js"></script> 
-    <script type="text/javascript" src="js/swiper.animate1.0.3.min.js"></script>
-    <script type="text/javascript" src="js/wow.js"></script> 
-    <script type="text/javascript" src="js/phone_main.js"></script> 
-    <script type="text/javascript" src="js/swiper.min.js"></script>
 
+
+    
  
     <script>
         var phoneWidth =  parseInt(window.screen.width);
@@ -581,6 +579,221 @@
      <!--top_index-->
      <div id="gotop">TOP</div>  
 </div>
+<!--主要js-->  
+<script src="js1/swiper.animate1.0.3.min.js"></script>
+<script src="js1/wow.js"></script>
+<script src="js1/qiehuan.js"></script>
+<script src="js1/swiper.min.js"></script>
+<script>
+/*头部banner*/
+    var mySwiper = new Swiper ('.banner_swiper', {
+        effect: 'fade',
+        resizeObserver: true,
+        navigation: {
+            nextEl: '.banner_swiper .swiper-button-next',
+            prevEl: '.banner_swiper .swiper-button-prev',
+        },
+        fadeEffect: {
+            crossFade: true,
+        },
+        //speed: 600,
+        // autoplay: {
+        //     delay: 10000,
+        //     disableOnInteraction: false,
+        // },
+        
+        loop: true,
+        observer: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+      
+        on:{
+            resize: function () {
+                setTimeout(() => {
+                mySwiper .update()
+                }, 500)   //延时器很重要，不加可能会出错
+             },
+        init: function(){
+            swiperAnimateCache(this); //隐藏动画元素 
+            swiperAnimate(this); //初始化完成开始动画
+        }, 
+        slideChangeTransitionEnd: function(){ 
+            swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+            //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+        } 
+        }
+    }) 
+//最底部新闻的切换
+ var swiper = new Swiper('.news_swiper', {
+      slidesPerView: 3,
+      spaceBetween: 20,
+        updateOnWindowResize: true,
+      resizeObserver: true,
+      //loop: true,
+    //   pagination: {
+    //     el: '.swiper-pagination',
+    //     clickable: true,
+    //   },
+      navigation: {
+        nextEl: '.news .swiper-button-next',
+        prevEl: '.news .swiper-button-prev',
+      },
+      on: {
+        resize: function(){
+            this.update(); 
+        },
+    },
+});
+//初始化滚动wow
+var wow = new WOW({
+    boxClass: 'wow',
+    animateClass: 'animated',
+    offset: 0,
+    mobile: true,
+    live: true
+});
+wow.init();
+//公司介绍5张轮播图
+var swiper = new Swiper('.swiper-fullscreen', {
+      direction: 'vertical',
+      autoplay: {
+        delay: 4000,
+        stopOnLastSlide: false,
+        disableOnInteraction: true,
+     },
+     // mousewheel: true,
+      noSwiping : true,
+      effect: 'fade', 
+      observer: true,
+      pagination: {
+        el: '.swiper-fullscreen .swiper-pagination',
+        clickable: true,
+      },
+      resizeObserver: true,
+      on: {
+        resize: function(){
+            setTimeout(() => {
+                swiper .update()
+                }, 500)   //延时器很重要，不加可能会出错
+        }, 
+        init: function () {
+          swiperAnimateCache(this); //隐藏动画元素 
+          swiperAnimate(this); //初始化完成开始动画
+        },
+        slideChangeTransitionEnd: function () {
+          swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+        },
+      },
+    });
+$(".swiper-fullscreen .swiper-pagination-bullet").hover(function() {
+          $(this).click(); //鼠标划上去之后，自动触发点击事件来模仿鼠标划上去的事件
+});
+ //点击按钮切换
+    // $('body').on('click', '.world-thumbs .swiper-slide', function () {
+    //   //var index = $(this).attr('data-swiper-slide-index');
+    //   var index=systemThumbs.clickedIndex;
+    //   console.log(index)
+    //   systemThumbs.slideTo(index);
+    //       //  $(".event_year li").eq(index).fadeIn().siblings().hide();
+    // })
+    var systemThumbs = new Swiper('.world-thumbs', {
+      mousewheel: true,initialSlide: 0,
+      direction: 'vertical',
+        centeredSlides : true,
+    //centeredSlidesBounds: true,
+      slidesPerView:'auto',
+      resizeObserver: true,
+      loopedSlides: 12,//6组角色
+      loop: true,
+     // autoplay:true,
+      on: {
+            resize: function(){
+                setTimeout(() => {
+                    systemThumbs .update()
+                }, 500)   //延时器很重要，不加可能会出错
+            }, 
+            init: function(){
+              var index = this.realIndex;
+                $(".event_year li").eq(index).fadeIn().siblings().hide(); 
+            },
+            click:function(){
+                var index = this.clickedIndex;
+                console.log(index);
+                systemThumbs.slideTo(index);
+            },
+            slideChangeTransitionStart: function(){
+                var index = this.realIndex;
+                $(".event_year li").eq(index).fadeIn().siblings().hide();
+            },
+            slideChange: function () {
+                var index = this.realIndex;
+                galleryTop.slideTo(index)
+            },
+        },
+  
+    });
+    var galleryTop = new Swiper('.world_top', {
+      initialSlide: 0,
+      spaceBetween: 0,
+      loop: true,   noSwiping : true,
+      effect: 'fade',
+      resizeObserver: true,
+      loopedSlides: 12,//6组角色
+      thumbs: {
+      swiper: systemThumbs,
+     },
+
+       on:{
+        resize: function(){
+            setTimeout(() => {
+                galleryTop .update()
+                }, 500)   //延时器很重要，不加可能会出错
+        }, 
+        init: function(){
+            swiperAnimateCache(this); //隐藏动画元素 
+            swiperAnimate(this); //初始化完成开始动画
+        }, 
+        slideChangeTransitionEnd: function(){ 
+            swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+            //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+        } 
+        }
+    });
+
+ //我们的业务滚动到某一个位置
+     $(function(){
+      
+        $('.yewu2').click(function(){
+            $('.shou_index').children('a').removeClass('active');
+            $('.yewu2').children('a').addClass('active');
+            jQuery('html,body').animate({scrollTop:$('#yewu1').offset().top});
+       })
+
+       $(window).scroll(function(){
+			var offh=$(".part4_banner").offset().top;
+			console.log(offh)
+			if ($(window).scrollTop() < (offh-100)) {
+				$('.shou_index').children('a').addClass('active');
+				$('.yewu2').children('a').removeClass('active');
+			} else {
+				$('.shou_index').children('a').removeClass('active');
+				$('.yewu2').children('a').addClass('active');
+			}
+		})
+
+
+ })
+
+
+//  $(window).resize( function (){
+// 			//alert( "窗体大小改变了！" );
+// 			location.reload()
+// 			//这里你可以写你的刷新代码！
+// 		});
+
+</script>
 <script>
 /*logo轮播*/
 var swiper = new Swiper('.logo_swiper', {
