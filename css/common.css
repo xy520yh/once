@@ -25,9 +25,9 @@
 .nav_icon{color:#363636;font-size: 28px; text-align: left;border-top: 1px solid #8e8e8e;width:638px;padding-top:36px;}
 .nav_icon span{margin-left: 30px; cursor: pointer;}
 .nav_icon span a{color:#363636;}
-.nav_top{width:638px;display: flex; justify-content: space-between; align-items: center;height:116px;}
-.nav_box .closed,.header_menu{width:100px; height: 65px;padding-top:40px;cursor: pointer;}
-.nav_box .closed img{width:36px;height:36px;transition: all 0.3s;float:right;}
+.nav_top{width:750px;display: flex; justify-content: space-between; align-items: center;height:116px;}
+.nav_box .closed,.header_menu{width:420px; height: 65px;padding-top:40px;cursor: pointer;padding-right:56px;}
+.nav_box .closed img{width:36px;height:36px;transition: all 0.3s;float:right; margin-right: 56px;}
 .nav_box .closed img:hover{transform:rotate(90deg);}
 .nav_box_main{width:638px;margin:0 auto;}
 /*公共底部*/
@@ -60,5 +60,7 @@ h4.active{background:url(../images/footer_row_04.png) no-repeat 10px  31px;width
 p.address{margin-top: 25px;margin-bottom: 20px;}
 
 .footer_show_box  p a{    color: rgba(255,255,255,0.5);}
+
+.header_logo{margin-left:56px;}
 /* .footer_show_box  p a:hover{border-bottom:1px solid #fff;padding-bottom:3px;} */
 
