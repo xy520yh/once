@@ -18,7 +18,7 @@ a {text-decoration: none;cursor: pointer;border:none;outline:none;}
 .clearfix:after {display: table;content: "";    /*不用有内容也可以*/}
 .clearfix:after {clear: both;}
 .clearfix {*zoom: 1;}
-h2.mr_4{margin-bottom:0.37rem;}
+h2.mr_4{margin-bottom:0.2rem;}
 input::-webkit-input-placeholder {color: #b57a65;}
 input::-moz-placeholder {color: #b57a65;}
 input:-moz-placeholder {color: #b57a65;}
@@ -90,14 +90,15 @@ body{position: relative;-webkit-text-size-adjust: none;color: #fff;font-size: 0.
 	.tro_box_left img{width:6rem;height:4rem;}
 	.tro_box_right{width:6rem;margin-top:-0.02rem;}
 	.tro_box_right h2{font-size:0.36rem;font-weight:600;color:#262626;}
-	.tro_box_right p{font-size:0.16rem;color:#717171; line-height: 0.4rem;}
+	.tro_box_right p{font-size:0.16rem;color:#717171; line-height: 0.38rem;text-align: justify;
+		text-justify: inter-ideograph;}
 	.company_box{width:16rem;margin:0 auto;height:4rem;color:#000;font-size: 30px; line-height: 40px; display: flex; justify-content: space-between;}
 	.company_box_right img{width:6rem;height:4rem;}
 	.company_box_left{font-size:0.24rem; padding:0.5rem;}
 		
 	.logo_box{width:9rem;}
 	.logo_box li{width:2.4rem;height:1.59rem;}
-	.logo_box li{width:2.4rem;height:1.59rem;border:0.01rem solid #d0d3df; float: left;margin-right: 0.3rem;margin-bottom:0.3rem;border-radius: 0.01rem;}
+	.logo_box li{width:2.4rem;height:1.59rem;border:0.01rem solid #d0d3df; float: left;margin-right: 0.3rem;margin-bottom:0.35rem;border-radius: 0.01rem;}
 	.logo_box  img{width:2.4rem;height:1.59rem;}
 	.logo_box  li .co{width:2.4rem;height:1.59rem;display:block; background-repeat:no-repeat; -webkit-transition: all 0.5s ease; transition: all 0.5s ease;
 	background-size:4.8rem 1.59rem;;}

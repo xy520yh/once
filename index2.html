@@ -4,14 +4,15 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>111</title>
+<title>官网首页</title>
 <meta name="keywords" content="">
 <meta name="description" content=" ">
 <!--主要样式-->
 <link rel="stylesheet" href="css/swiper.min.css">
 <link rel="stylesheet" href="css/animate.css" >
 <link rel="stylesheet" href="css1/main.css">
-
+<link rel="stylesheet" type="text/css" href="css1/style.css">
+<link rel="stylesheet" href="css1/common.css">
 <!--rem适配-->
 <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 <script src="js/devicerem.js"></script>
@@ -19,32 +20,107 @@
 </head>
 <body>
 <!--头部-->
-
-
+<div class="top_header">
+    <div class="wrap_header headroom header header--fixed hide-from-print" id="header">
+    <div class="lang_en">
+        <div class="area">
+            <span>简体</span><i></i>
+            <ul>
+                <li><a href="#">简体中文</a></li>
+                <li><a href="#">English</a></li>
+            </ul>
+        </div>
+        </div>   
+        <div class="header_main w_max">
+            <div class="header_logo"><a href="index.html"><img src="images/logo.png"></a></div>
+            <ul class="nav">
+                <li class="shou_index"><a href="index.html">首页</a></li> 
+                <!-- <li  class="yewu2"><a href="index.html#yewu1" >我们的业务</a></li>  -->
+                 <li  class="yewu2"><a href="javascript:void(0)" >我们的业务</a></li>
+                <li><a href="list.html" >新闻动态</a></li>
+                <li><a href="investor.html">投资者关系</a></li>
+                <li><a href="job.html">加入我们</a></li>
+            </ul>  
+        </div>
+    </div> 
+</div>
+<!--轮播-->
+<div class="wrap_banner2">
+    <div class="swiper-container banner_swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide banner2_slide1">
+            <!-- <img src="images/banner_kl_img.gif">  -->
+             <video id='video' muted autoplay="autoplay" src="media/top.mp4" loop="loop"></video>
+            <div class="banner_text">
+                <h2 class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.1s">与志同道合的人<br/>创造出改变世界的产品</h2>
+                <p  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s"><span>Work with like-minded people to create   <br/>world-changing products</span><i></i></p>
+            </div>
+          </div>
+          <div class="swiper-slide banner2_slide2" style="background: url(images/banner_ga.jpg);width:100%;height:9.6rem;background-size:cover;">
+            <a href="https://www.opera.com/zh-cn" target="_blank"></a>
+            <div class="banner_text">
+                <h2  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.1s">全球移动游戏平台<br/>GameArk</h2>
+                <p   class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s"><span>Global Mobile Gaming Platform  <br/> GameArk</span><i></i></p>
+            </div>
+            </a>
+          </div>
+          <div class="swiper-slide banner2_slide3">
+            <div class="banner_text"> 
+                <h2  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.1s">信息分发平台<br/>Opera</h2>
+                <p  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s"><span>Information Distribution Platform  <br/> Opera</span><i></i></p>
+            </div>
+          </div>
+          <div class="swiper-slide banner2_slide4">
+            <div class="banner_text">
+                <h2  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.1s">休闲娱乐平台<br/>闲徕互娱</h2>
+                <p  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s"><span>Leisure and Entertainment Platform  <br/> Xianlaihuyu</span><i></i></p>
+            </div>
+          </div>
+          <div class="swiper-slide banner2_slide5">
+            <div class="banner_text">
+                <h2 class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.1s">语音社交平台<br/>Star Group</h2>
+                <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s"><span>Voice Social Platform   <br/>Star Group</span><i></i></p>
+            </div>
+          </div>
+          <div class="swiper-slide banner2_slide6">
+            <div class="banner_text">
+                <h2  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.1s">科技股权投资业务<br/>昆仑资本</h2>
+                <p  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s"><span>Technology Equity Investment  Business <br/>Kunlun Capital</span><i></i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+         <!-- Add Arrows -->
+        <div class="swiper-button-next banner-slider-button-next"></div>
+        <div class="swiper-button-prev  banner-slider-button-prev"></div>
+      </div>
+</div>
 <!--公司介绍--> 
 <div class="tro">
     <div class="tro_box w_max">
         <div class="tro_box_left">
-            <ul class="logo_box  fadeInUp " >
-                <li><a href="https://www.opera.com/zh-cn" target="_blank"><span class="btn_1" ><i style="background-image:url(images1/pc_logo_opea.png);" class="co"></i></span></a></li>
-                <li><a href="https://www.starmakerstudios.com/#/home" target="_blank"><span class="btn_1" ><i style="background-image:url(images1/pc_logo_stargroup.png);" class="co"></i><span></a></li>
-                <li><a href="http://xianlaigame.com/home" target="_blank"><span class="btn_1" ><i style="background-image:url(images1/pc_logo_xl.png);" class="co"></i></span></a></li>
-                <li><a href="https://game.gameark.cn/" target="_blank"><span class="btn_1" ><i style="background-image:url(images1/pc_logo_gameark.png);" class="co"></i></span></a></li>
-                <li><a href="https://www.kunlun-cap.com/" target="_blank"><span class="btn_1" ><i style="background-image:url(images1/pc_logo_kl.png);" class="co"></i></span></a></li>
+            <ul class="logo_box wow fadeInUp animated" data-wow-delay="0.3s">
+                <li><a href="https://www.opera.com/zh-cn" target="_blank"><span class="btn_1" ><i style="background-image:url(images/pc_logo_opea.png);" class="co"></i></span></a></li>
+                <li><a href="https://www.starmakerstudios.com/#/home" target="_blank"><span class="btn_1" ><i style="background-image:url(images/pc_logo_stargroup.png);" class="co"></i><span></a></li>
+                <li><a href="http://xianlaigame.com/home" target="_blank"><span class="btn_1" ><i style="background-image:url(images/pc_logo_xl.png);" class="co"></i></span></a></li>
+                <li><a href="https://game.gameark.cn/" target="_blank"><span class="btn_1" ><i style="background-image:url(images/pc_logo_gameark.png);" class="co"></i></span></a></li>
+                <li><a href="https://www.kunlun-cap.com/" target="_blank"><span class="btn_1" ><i style="background-image:url(images/pc_logo_kl.png);" class="co"></i></span></a></li>
             </ul>
            
         </div>
-        <div class="tro_box_right  fadeInUp " >
+        <div class="tro_box_right wow fadeInUp animated" data-wow-delay="0.3s">
             <h2 class="mr_4">关于我们</h2>
           
-            <P>作为一家全球领先的互联网平台型集团公司，昆仑万维逐渐在全球范围内形成了信息分发平台Opera、语音社交平台Star Group、休闲娱乐平台闲徕互娱、移动游戏平台GameArk、科技股权投资等五大业务版块，覆盖全球4亿以上月活跃用户，市场遍及中国、欧洲、东南亚、中东、北美、南美、非洲等地，为全球互联网用户提供社交、资讯、娱乐等信息化服务。昆仑万维于2015年登陆创业板，全球员工数已增至4000多人，集团旗下的业务和子公司已先后拓展至美国、俄罗斯、日本、韩国、印度，以及欧洲、非洲、东南亚等地的其他国家。</P>
-           <P></P>
+            <P>作为一家全球领先的互联网平台型公司，昆仑万维逐渐在全球范围内形成了信息分发平台Opera、语音社交平台Star Group、休闲娱乐平台闲徕互娱、移动游戏平台GameArk、科技股权投资等五大业务板块，市场遍及中国、东南亚、非洲、中东、北美、南美、欧洲等地。截至2021年6月末，昆仑万维整体月活跃用户近4.5亿，其中九成以上用户来自于海外。</P>
+            <P> 昆仑万维于2015年登陆创业板，全球员工数已增至4000多人，集团旗下的业务和子公司已先后拓展至美国、俄罗斯、日本、韩国、印度，以及欧洲、非洲、东南亚等地的其他国家。</P>
+          
         </div>
     </div> 
 </div>
 <!--大事计--> 
 <div class="event part" >
-    <div class="event_box w_max   fadeInUp ">
+    <div class="event_box w_max  wow fadeInUp animated">
         <h2 class="event_tit">大事记</h2>
         <div class="event_box_left">
             <!-- <ul class="event_year">
@@ -61,7 +137,7 @@
                 <li>2024</li> 
               </ul> -->
               <div class="event_left_con">
-                  <!-- <div class="ico"> <img src="images1/event_ico_03.png" alt=""></div> -->
+                  <!-- <div class="ico"> <img src="images/event_ico_03.png" alt=""></div> -->
                 <div class="swiper-container world-thumbs type_world">
                     <div class="swiper-wrapper ">
                     <div class="swiper-slide">2008</div>
@@ -84,12 +160,12 @@
                     <div class="swiper-slide  swiper-no-swiping"  style="overflow: hidden;">
                         <div class="world_right">
                             <div class="world_right_img ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/event_img_2008.png" alt="">
+                                <img src="images/event_img_2008.png" alt="">
                             </div>
                             <div class="world_right_text">
                                 <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">昆仑万维诞生</h2>
                                 <div class="event_text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
-                                    <P>昆仑万维以页游研发和全球发行业务起家，是第一批进军海外游戏市场的中国厂商</P>
+                                    <P>以页游研发和全球发行业务起家，陆续发行了《昆仑世界》、《美眉梦工厂》、《武侠风云》等游戏，是第一批进军海外游戏市场的中国厂商。</P>
                                  </div>
                             </div>
                         </div>
@@ -97,12 +173,12 @@
                     <div class="swiper-slide  swiper-no-swiping"  style="overflow: hidden;">
                         <div class="world_right">
                             <div class="world_right_img ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/event_img_2012.png" alt="">
+                                <img src="images/event_img_2012.png" alt="">
                             </div>
                             <div class="world_right_text">
                                 <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">逐渐发力自研手游</h2>
                                 <div class="event_text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
-                                    <P>于2012年布局手游业务，并于2015重点发力自研手游，现已形成研运一体化经典IP储备，全球市场运营的稳定形态</P>
+                                    <P>利用网页游戏领域的研发和运营经验，逐步将业务拓展到移动网络游戏和客户端游戏。2012年布局手游业务，并于2015重点发力自研手游。</P>
                                  </div>
                             </div>
                         </div>
@@ -110,12 +186,12 @@
                     <div class="swiper-slide  swiper-no-swiping"  style="overflow: hidden;">
                         <div class="world_right">
                             <div class="world_right_img ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/event_img_2015_01.png" alt="">
+                                <img src="images/event_img_2015_01.png" alt="">
                             </div>
                             <div class="world_right_text">
                                 <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">A股上市 开启投资布局 </h2>
                                 <div class="event_text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
-                                    <P>2015年1月21日登陆创业板，精准捕捉互联网投资机遇，投资了映客、趣店、达达、快看漫画等公司</P>
+                                    <P>2015年1月21日登陆创业板，在游戏业务基础上，战略投资了Opera、Grindr和闲徕互娱，捕捉Fintech、直播、电商、二次元等领域机遇。</P>
                                  </div>
                             </div>
                         </div>
@@ -123,12 +199,12 @@
                     <div class="swiper-slide  swiper-no-swiping"  style="overflow: hidden;">
                         <div class="world_right">
                             <div class="world_right_img ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/event_img_2018.png" alt="">
+                                <img src="images/event_img_2018.png" alt="">
                             </div>
                             <div class="world_right_text">
                                 <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">业务增长半径扩大</h2>
                                 <div class="event_text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
-                                    <P>昆仑万维收购的Opera在美国纳斯达克上市，全新独立品牌GameArk正式启动，近一步扩大游戏业务范围</P>
+                                    <P>昆仑万维致力于成为全球领先的社交网络公司，收购的Opera在美国纳斯达克上市，全新独立品牌GameArk正式启动，近一步扩大业务范围。</P>
                                  </div>
                             </div>
                         </div>
@@ -136,12 +212,12 @@
                     <div class="swiper-slide  swiper-no-swiping"  style="overflow: hidden;">
                         <div class="world_right">
                             <div class="world_right_img ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/event_img_2019.png" alt="">
+                                <img src="images/event_img_2019.png" alt="">
                             </div>
                             <div class="world_right_text">
                                 <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">走向全球互联网平台型公司</h2>
                                 <div class="event_text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
-                                    <P>初步形成以Opera为核心的海外信息媒体平台、以GameArk为核心的全球游戏研运一体业务、以闲徕为核心的休闲娱乐社交业务等板块，致力于打造国际领先的互联网平台型公司</P>
+                                    <P>初步形成信息分发平台Opera、全球游戏研运一体业务GameArk、休闲娱乐平台闲徕互娱等多元化业务板块，向全球互联网平台型公司转型。</P>
 
                                  </div>
                             </div>
@@ -150,12 +226,12 @@
                     <div class="swiper-slide  swiper-no-swiping"  style="overflow: hidden;">
                         <div class="world_right">
                             <div class="world_right_img ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/event_img_2020.png" alt="">
+                                <img src="images/event_img_2020.png" alt="">
                             </div>
                             <div class="world_right_text">
                                 <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">强化互联网平台型公司定位</h2>
                                 <div class="event_text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
-                                    <P>通过收购，昆仑万维持有Opera 53.88%股权，成为全球互联网流量巨头的控股方，进一步明确并强化互联网平台型公司的定位</P>
+                                    <P>通过收购，昆仑万维持有Opera 53.88%股权，成为全球互联网流量巨头的控股方，进一步明确并强化全球互联网平台的战略定位。</P>
                                  </div>
                             </div>
                         </div>
@@ -163,12 +239,12 @@
                     <div class="swiper-slide  swiper-no-swiping"  style="overflow: hidden;">
                         <div class="world_right">
                             <div class="world_right_img ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/event_img_2021.png" alt="">
+                                <img src="images/event_img_2021.png" alt="">
                             </div>
                             <div class="world_right_text">
                                 <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">全面提升全球影响力</h2>
                                 <div class="event_text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
-                                    <P>收购Star Group布局音乐娱乐社交，Opera、Star Group纳入昆仑万维合并财务报表范围，进一步推动全球互联网平台战略，持续提升平台活跃用户数量，全面提升全球影响力</P>
+                                    <P>收购Starmaker布局音频社交；Opera、StarMaker并入昆仑万维财务报表，进一步推动全球互联网平台战略，全面提升全球影响力。</P>
                                  </div>
                             </div>
                         </div>
@@ -176,7 +252,7 @@
                     <!-- <div class="swiper-slide">
                         <div class="world_right">
                             <div class="world_right_img ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/event_img1.jpg" alt="">
+                                <img src="images/event_img1.jpg" alt="">
                             </div>
                             <div class="world_right_text">
                                 <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">开始准备10</h2>
@@ -188,9 +264,9 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                          <div class="world_right  fadeInLeft " >
+                          <div class="world_right wow fadeInLeft animated" data-wow-delay="0.3s">
                             <div class="world_right_img ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/event_img1.jpg" alt="">
+                                <img src="images/event_img1.jpg" alt="">
                             </div>
                             <div class="world_right_text">
                                 <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">开始准备11</h2>
@@ -204,7 +280,7 @@
                     <div class="swiper-slide">
                         <div class="world_right">
                             <div class="world_right_img ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/event_img1.jpg" alt="">
+                                <img src="images/event_img1.jpg" alt="">
                             </div>
                             <div class="world_right_text">
                                 <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">开始准备12</h2>
@@ -226,18 +302,18 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide slide1 swiper-no-swiping"  style=" background: url(images1/part4_banner_op.jpg);  background-size: 19.2rem 9.6rem;  position: relative;">
                 <a href="https://www.opera.com/zh-cn" target="_blank">
-                    <div class="slide_box  fadeInUp " >
+                    <div class="slide_box wow fadeInUp animated" data-wow-delay="0.3s">
                         <div class="slide_left">
                             <div class="slide_left_logo ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/part4_opea_logo_03.png">
+                                <img src="images/part4_opea_logo_03.png">
                             </div>
                             <div class="slide_left_text ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                                 Opera是昆仑万维旗下的信息分发平台，月活跃用户超过3.85亿，是全球领先的互联网品牌、欧洲和非洲市场的顶级流量平台。在“浏览器+”战略驱动下，Opera基于浏览器业务，创新推出了Opera GX、Opera News、Opera Ads等面向游戏、信息流内容、广告等平台化业务。
                             </div>
                             <div class="slide_left_link ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><a href="https://www.opera.com/zh-cn" target="_blank">了解更多 ></a></div>
                         </div>
-                        <div class="slide_right ani  fadeInRight" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.7s" swiper-animate-delay="0" >
-                            <img src="images1/part4_opea_img.png">
+                        <div class="slide_right ani wow fadeInRight" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.7s" swiper-animate-delay="0" >
+                            <img src="images/part4_opea_img.png">
                         </div>
                     </div>
                     
@@ -245,12 +321,12 @@
                
                 </a>
             </div> 
-            <div class="swiper-slide slide2 swiper-no-swiping">
+            <div class="swiper-slide slide2 swiper-no-swiping"  style=" background: url(images1/part4_banner_op.jpg);  background-size: 19.2rem 9.6rem;  position: relative;">
                 <a href="https://www.starmakerstudios.com/#/home" target="_blank">
                     <div class="slide_box">
                         <div class="slide_left">
                             <div class="slide_left_logo ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/part4_st_logo_03.png">
+                                <img src="images/part4_st_logo_03.png">
                             </div>
                             <div class="slide_left_text ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                                 Star Group是昆仑万维旗下的语音社交平台。Star Group的主要产品StarMaker是中国互动娱乐出海TOP3，全球用户数破亿。
@@ -258,18 +334,18 @@
                             <div class="slide_left_link ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><a href="https://www.starmakerstudios.com/#/home" target="_blank">了解更多 ></a></div>
                         </div>
                         <div class="slide_right ani"     swiper-animate-effect="fadeInRight" swiper-animate-duration="0.7s" swiper-animate-delay="0" >
-                            <img src="images1/part4_st_img.png">
+                            <img src="images/part4_st_img.png">
                         </div>
                     </div>
                 </a>
             </div>     
            
-            <div class="swiper-slide slide3 swiper-no-swiping">
+            <div class="swiper-slide slide3 swiper-no-swiping"  style=" background: url(images1/part4_banner_op.jpg);  background-size: 19.2rem 9.6rem;  position: relative;">
                 <a href="http://xianlaigame.com/home" target="_blank">
                     <div class="slide_box">
                         <div class="slide_left">
                             <div class="slide_left_logo ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                                <img src="images1/part4_xl_logo_03.png">
+                                <img src="images/part4_xl_logo_03.png">
                             </div>
                             <div class="slide_left_text ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                                 闲徕互娱是国内领先的互联网综合娱乐平台，致力于为用户提供专业、丰富、多元的互联网文娱生活。产品以休闲游戏为切入口，拟打造完整的泛娱乐化产品生态，为各类用户提供不同类型的娱乐服务。
@@ -277,18 +353,18 @@
                             <div class="slide_left_link ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><a href="http://xianlaigame.com/home" target="_blank">了解更多 ></a></div>
                         </div>
                         <div class="slide_right ani"     swiper-animate-effect="fadeInRight" swiper-animate-duration="0.7s" swiper-animate-delay="0" >
-                            <img src="images1/part4_xl_img.png">
+                            <img src="images/part4_xl_img.png">
                         </div>
                     </div>
                   
                  </a>
             </div>
-            <div class="swiper-slide slide4 swiper-no-swiping">
+            <div class="swiper-slide slide4 swiper-no-swiping"  style=" background: url(images1/part4_banner_op.jpg);  background-size: 19.2rem 9.6rem;  position: relative;">
                 <a href="https://game.gameark.cn/" target="_blank">
                 <div class="slide_box">
                     <div class="slide_left">
                         <div class="slide_left_logo ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                            <img src="images1/part4_ga_logo_03.png">
+                            <img src="images/part4_ga_logo_03.png">
                         </div>
                         <div class="slide_left_text ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                             GameArk是昆仑万维旗下的研运一体的全球移动游戏平台，全球发行区域超过150个国家和地区。在涵盖MMO、ARPG、SLG等移动游戏品类的同时，尝试孵化二次元、休闲益智等新品类，并与公司其他平台类业务进行协同发展。
@@ -296,18 +372,18 @@
                         <div class="slide_left_link ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><a href="https://game.gameark.cn/" target="_blank">了解更多 ></a></div>
                     </div>
                     <div class="slide_right ani"     swiper-animate-effect="fadeInRight" swiper-animate-duration="0.7s" swiper-animate-delay="0" >
-                        <img src="images1/part4_ga_img.png">
+                        <img src="images/part4_ga_img.png">
                     </div>
                 </div>
               
             </div>  
       
-            <div class="swiper-slide slide5 swiper-no-swiping">
+            <div class="swiper-slide slide5 swiper-no-swiping"  style=" background: url(images1/part4_banner_op.jpg);  background-size: 19.2rem 9.6rem;  position: relative;">
                 <a href="https://www.kunlun-cap.com/" target="_blank">
                 <div class="slide_box">
                     <div class="slide_left">
                         <div class="slide_left_logo ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
-                            <img src="images1/part4_zb_logo_03.png">
+                            <img src="images/part4_zb_logo_03.png">
                         </div>
                         <div class="slide_left_text ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                             昆仑资本是昆仑万维旗下的科技股权投资平台，专注于科技创新型企业投资，以美元和人民币双币种模式运作，陆续投资了达达、竹云科技、小马智行、科亚医疗、博雅辑因、Cytek、PingCap、和元生物、乐言科技、迅实科技等优质企业。
@@ -315,7 +391,7 @@
                         <div class="slide_left_link ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"><a href="https://www.kunlun-cap.com/" target="_blank">了解更多 ></a></div>
                     </div>
                     <div class="slide_right1 ani"     swiper-animate-effect="fadeInRight" swiper-animate-duration="0.7s" swiper-animate-delay="0" >
-                        <img src="images1/part4_zb_img_03_02.png">
+                        <img src="images/part4_zb_img_03_02.png">
                     </div>
                 </div>
              </a>
@@ -325,7 +401,7 @@
     </div>
 </div>
 <!--新闻--> 
-<div class="news">
+<div class="news  wow fadeInUp animated" data-wow-delay="0.3s">
     <h2>新闻</h2>
     <div class="news_box_list">
         <div class="news_main">
@@ -333,7 +409,7 @@
                 
                 <div class="item">
                     <a href="#" target="_blank" class="link">
-                    <div class="news_img"><img src="images1/pc_news_img1.jpg" alt="" class="img"></div>
+                    <div class="news_img"><img src="images/pc_news_img1.jpg" alt="" class="img"></div>
                     <p class="item-title">Opera进军非洲即时通讯市场 “Opera+”战略战略战略</p>
                     <p class="date">2021.07.05</p>
                     <span>查看详情</span>
@@ -345,7 +421,7 @@
             <div class="news_list">
                 <div class="item">
                     <a href="#" target="_blank" class="link">
-                    <div class="news_img"><img src="images1/pc_news_img2.jpg" alt="" class="img"></div>
+                    <div class="news_img"><img src="images/pc_news_img2.jpg" alt="" class="img"></div>
                     <p class="item-title">Opera进军非洲即时通讯市场 “Opera+”战略战略战略</p>
                     <p class="date">2021.07.05</p>
                     <span>查看详情</span>
@@ -357,7 +433,7 @@
             <div class="news_list">
                 <div class="item">
                     <a href="#" target="_blank" class="link">
-                    <div class="news_img"><img src="images1/pc_news_img3.jpg" alt="" class="img"></div>
+                    <div class="news_img"><img src="images/pc_news_img3.jpg" alt="" class="img"></div>
                     <p class="item-title">Opera进军非洲即时通讯市场 “Opera+”战略战略战略</p>
                     <p class="date">2021.07.05</p>
                     <span>查看详情</span>
@@ -369,7 +445,7 @@
 </div>
 <!--底部--> 
 <div class="footer_wrap part ">
-    <div class="w_max footer_main   fadeInUp ">
+    <div class="w_max footer_main  wow fadeInUp animated"  data-wow-delay="0.2s">
        <ul class="footer_left">
             <li  class="yewu2 first"><a href="javascript:void(0)" >我们的业务</a></li>
             <!-- <li  class="yewu2"><a href="index.html#yewu1" >我们的业务</a></li>  -->
@@ -401,16 +477,15 @@
        
         </div>
        <div class="footer_right">
-           <p class="footer_logo"><img src="images1/pc_footer_logo.png"></p>
-           <p class="footer_icon"><img src="images1/pc_footer_icon.png"></p>
+           <p class="footer_logo"><img src="images/pc_footer_logo.png"></p>
+           <p class="footer_icon"><img src="images/pc_footer_icon.png"></p>
        </div>
     </div>
 </div> 
 
 <!--主要js-->  
 <script src="js/swiper.animate1.0.3.min.js"></script>
-
-<script src="js/qiehuan.js"></script>
+<script src="js/wow.js"></script>
 <script src="js/swiper.min.js"></script>
 <script>
 /*头部banner*/
@@ -474,7 +549,15 @@
         },
     },
 });
-
+//初始化滚动wow
+var wow = new WOW({
+    boxClass: 'wow',
+    animateClass: 'animated',
+    offset: 0,
+    mobile: true,
+    live: true
+});
+wow.init();
 //公司介绍5张轮播图
 var swiper = new Swiper('.swiper-fullscreen', {
       direction: 'vertical',
