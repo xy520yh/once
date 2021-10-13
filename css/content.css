@@ -80,8 +80,13 @@ p.title1{color:#42494f;font-size:24px;margin-bottom:15px;line-height:0px;}
 .list_item dd em img{vertical-align:middle;margin-left:10px;width:16px;height:15px;}
 	/*分页*/
 	.pageNum{text-align:center;margin-top:100px;}
-	.pageNum a{margin:0 10px;border-radius:2px;display:inline-block;color:#353535;height:50px;line-height:50px;background:none;width:50px;font-size:26px;border:1px solid #c1c1c1;}
-	.pageNum a:hover,.pageNum .aNow{background:#0052d9;color:#FFF;width:50px;height:50px;border-radius:2px;}
+	.pageNum a{margin:0 5px 0 0;border-radius:2px;display:inline-block;color:#353535;background:none;font-size:22px;border:1px solid #c1c1c1;padding: 8px 16px; line-height: 26px;}
+	.pageNum a:hover {background:#0052d9;color:#FFF;border-radius:2px;}
+	.pageNum span{background:#0052d9;color:#FFF;margin: 0 5px 0 0;border-radius:2px;display:inline-block;font-size:22px;border:1px solid #c1c1c1; padding: 8px 16px; line-height:26px;}	
+}
+
+
+
 /*举报页面*/
 .area{width:750px;height:104px;padding-left:56px;background:url(../images/part2_area.jpg) #fff no-repeat;border-bottom:1px solid #e6e6e6;outline:medium;appearance:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;font-size:30px;color:#5a5a5a;background-position:650px 38px;}
 .report_banner_main{width:750px;margin:0 auto;padding-top:180px;}
