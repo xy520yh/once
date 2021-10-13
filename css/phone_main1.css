@@ -83,41 +83,7 @@ p.border_line{height:1px;background-color:#dbdcdc;margin-top:15px;margin-bottom:
 .event_left_con .swiper-slide-next + .swiper-slide + .swiper-slide + .swiper-slide + .swiper-slide{font-size:43px;opacity:.2;}
 .event_left_con .swiper-slide-next + .swiper-slide + .swiper-slide + .swiper-slide + .swiper-slide + .swiper-slide{font-size:43px;opacity:.2;} */
 
-.part4_banner{width:100%;height:9.6rem;}
-.swiper-fullscreen{width: 100%;height: 100%; position: relative;}
-.swiper-fullscreen >.swiper-wrapper>.swiper-slide{background-repeat:no-repeat;background-position: center center; background-size: cover;}
-/* .swiper-fullscreen .slide1{background:url(../images/part4_banner_op.jpg);background-size:19.2rem 9.6rem; position: relative;} */
- .swiper-fullscreen .slide2{background:url(../images/part4_banner_st.jpg);background-size:19.2rem 9.6rem;position: relative;}
-.swiper-fullscreen .slide3{background:url(../images/part4_banner_xl.jpg);background-size:19.2rem 9.6rem;position: relative;}
-.swiper-fullscreen .slide4{background:url(../images/part4_banner_ga.jpg);background-size:19.2rem 9.6rem;position: relative;}
-.swiper-fullscreen .slide5{background:url(../images/part4_banner_kl1.jpg);background-size:19.2rem 9.6rem;position: relative;}
-.swiper-fullscreen  .swiper-pagination{position:absolute;height:3rem;left:0.5rem;text-align: center;width:1rem;}
-.part4_banner .swiper-fullscreen  .swiper-pagination-bullet {display: block;width:0.2rem;height:0.2rem;background:#fff;border-radius: 50%;margin-bottom: 0.5rem;opacity: 1;margin-left: 0.1rem;}
-.part4_banner .swiper-pagination span:not([class="swiper-pagination-bullet"]) {margin-left: 0rem;}
-.swiper-fullscreen  .swiper-pagination-bullet img{width:0.4rem;height:0.4rem;margin-bottom: 0.5rem;}
-.swiper-fullscreen  .swiper-pagination-bullet-active {z-index: 9;	font-size: 0.14rem;height:0.5rem;width: 0.5rem;text-align: center;	line-height: 0.5rem;	border-radius: 50%;	display: inline-block;margin-bottom: 0.25rem;position: relative;	}
-.swiper-fullscreen .swiper-pagination  span.swiper-pagination-bullet-active:nth-of-type(1){background:url(../images/logo1.png);width:0.4rem;height:0.39rem; background-size: 0.4rem 0.39rem;display: block;}
-.swiper-fullscreen .swiper-pagination  span.swiper-pagination-bullet-active:nth-of-type(2){background:url(../images/logo2.png);width:0.4rem;height:0.39rem;background-size: 0.4rem 0.39rem;display: block;}
-.swiper-fullscreen .swiper-pagination  span.swiper-pagination-bullet-active:nth-of-type(3){background:url(../images/logo3.png);width:0.4rem;height:0.39rem; background-size: 0.4rem 0.39rem;display: block;}
-.swiper-fullscreen .swiper-pagination  span.swiper-pagination-bullet-active:nth-of-type(4){background:url(../images/logo4.png);width:0.4rem;height:0.39rem;background-size: 0.4rem 0.39rem;display: block;}
-.swiper-fullscreen .swiper-pagination  span.swiper-pagination-bullet-active:nth-of-type(5){background:url(../images/logo5.png);width:0.4rem;height:0.39rem;background-size: 0.4rem 0.39rem;display: block;}
-.swiper-fullscreen  .swiper-pagination-bullet-active::before {content: "";	position: absolute;	left: -25%;	top: -25%;height: 0.6rem;		width:0.6rem;	background: rgba(255, 255, 255, 0.479);	
-		z-index: -1;		border-radius: 50%;		 transform-origin: center center;	animation: pulse-border 1500ms 0.5s ease-out infinite;}
 
-.slide_left{width:6rem;}
-.slide_box{margin:0 auto;width: 15rem;display: flex;margin-top:0rem;position: relative;}
-.slide_box a{color:#fff;}
-.slide_left_logo img{width:3.73rem;height:1.31rem;margin-top:2rem;}
-.slide_right {position: absolute;right: -2.1rem;top:0rem;}
-.slide_right img{width:11.98rem;height:9.6rem;  	/*  transform-origin: 100% 50%;	background-position: top right; animation: 0.9s scaleIn2 cubic-bezier(0, 0.34, 0, 1.39); */}
-.slide_right1 {position: absolute;right:  -2.1rem;top:0rem;}
-.slide_right1 img{width:11.51rem;height:9.6rem;   	/*transform-origin: 100% 50%;	background-position: top right;	 animation: 0.9s scaleIn2 cubic-bezier(0, 0.34, 0, 1.39); */}
-.slide_left_text{font-size: 0.18rem;margin-top: 0.5rem;margin-bottom: 0.5rem; line-height: 0.33rem;}
-.slide_left_link a{font-size: 0.2rem;color:#fff;border-bottom: none;letter-spacing: 0.03rem;}
-.slide_left_link a:hover{border-bottom: 0.02rem solid #fff; padding-bottom:0.05rem;}
-.slide_left_link{width:1.3rem;} 
-.slide_left_logo {margin-top:0.7rem;}
-.banner_text{z-index: 11111;}
 /*part4*/
 .part4{width:750px; height:1400px; position:relative;margin-top: 140px;}
 .part4_banner{width:750px;height:1400px;}
