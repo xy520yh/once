@@ -44,8 +44,8 @@
 .footer_center_left{font-size:26px;width:200px;display: flex; justify-content:  space-between; align-items: center; cursor: pointer;}
 .footer_center_center h3{color:#19e0ed;width:230px;border:1px solid #1ce7f5;border-radius:10px;font-size:22px;text-align:center;line-height:39px;float: left;height:39px; font-weight: normal;}
 .footer_center_left span{color:#fff;width:220px; display: inline-block;}
-.footer_center_left h4{background:url(../images/footer_row_03.png) no-repeat 10px  31px;width:31px;height:47px;  padding:12px 30px; cursor: pointer;}
-h4.active{background:url(../images/footer_row_04.png) no-repeat 10px  31px;width:31px;height:47px;  padding:12px 30px; cursor: pointer;}
+.footer_center_left h4{background:url(../images/footer_row_03.png) no-repeat 10px  29px;width:31px;height:47px;  padding:12px 30px; cursor: pointer;}
+h4.active{background:url(../images/footer_row_04.png) no-repeat 10px  29px;width:31px;height:47px;  padding:12px 30px; cursor: pointer;}
 .footer_bottom_01{width:750px;height:70px;border-bottom: 1px solid #4ec3cd;}
 .footer_show_box1{width:618px;margin:0 auto; display: flex; justify-content: space-between; align-items: center; height: 70px; cursor: pointer;}
 
