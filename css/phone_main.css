@@ -50,9 +50,9 @@ a:hover {color: #0f93b9;}
 .banner_text{width:600px;margin:0 auto;height:300px;color:#fff;position:absolute;left:75px;top:290px;z-index:4;}
 .banner_text h2{font-size:52px;margin-bottom:50px;font-weight:bold; text-align: center;}
 .banner_text p{font-size:26px;width:600px;text-align: center;margin:0 auto;}
-.banner_text_c{width:700px;margin:0 auto;height:300px;color:#fff;position:absolute;left:50%;top:210px;z-index:4;transform:translateX(-50%);}
-.banner_text_c h2{font-size:52px;margin-bottom:15px;font-weight:bold; text-align: center;}
-.banner_text_c p{font-size:24px;width:700px;text-align: center;margin:0 auto;}
+.banner_text_c{width:700px;margin:0 auto;height:300px;color:#fff;position:absolute;left:50%;top:190px;z-index:4;transform:translateX(-50%);}
+.banner_text_c h2{font-size:37px;margin-bottom:10px;font-weight:bold; text-align: center;}
+.banner_text_c p{font-size:20px;width:700px;text-align: center;margin:0 auto;}
 /*第二屏 */
 .part2{background:#f7f8f9;width:750px;position:relative;padding-top:140px;padding-bottom:105px; }
 .part2 h2{font-size:48px;font-weight:bold;color:#262626;text-align:center;margin-bottom:53px;}
